@@ -1,0 +1,127 @@
+.navigation {
+    position: fixed;
+    z-index: 15;
+    height: 100vh;
+    max-width: 340px;
+    width: 0; 
+    top: 0; 
+    left: 0;
+    background-color: $color-white;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in; 
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @include respond(desktop) {
+        width: 100%;
+        max-width: 1350px;
+        height: 200px;
+        padding: 3rem;
+
+        left: auto;
+
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    &--active {
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 3rem;    
+    }
+
+    &__menu {
+        width: 60%;
+        min-width: 250px;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @include respond(big-phone) {
+            width: 20%;
+        }
+
+        @include respond(desktop) {
+            flex-direction: row;
+            width: auto;
+        }
+    }
+
+    &__open {
+        display: block;
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: transparent;
+        border: none;
+
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+        @include respond(desktop) {
+            display: none;
+        }
+    }
+
+    &__close {
+        display: block;
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: transparent;
+        border: none;
+
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+        @include respond(desktop) {
+            display: none;
+        }
+    }
+
+    &__item {
+        padding-bottom: 2rem;
+
+        @include respond(big-phone) {
+            padding-bottom: 3rem;
+        }
+
+        @include respond(desktop) {
+            max-width: 220px;
+            padding: 10px;
+        }
+
+        h2 {
+            color: $color-black;
+            font-weight: 600;
+            font-size: 2rem;
+
+            &:hover {
+                color: $color-primary-dark;
+            }
+        }
+
+        p {
+            color: $color-grey-dark-3;
+            font-style: italic;
+            font-size: 1.3rem;
+
+            &:hover {
+                color: $color-primary-light;
+            }
+        }
+    }
+
+    &__logo {
+        max-width: 70%;
+        margin-right: auto;
+
+        @include respond(desktop) {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    };
+}

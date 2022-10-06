@@ -3,6 +3,7 @@
     "version": "2.0.0",
     "description": "My second Portfolio, which will be used to promote employment and freelancing.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "watch:sass": "node-sass sass/main.scss css/style.css -w",
         "devserver": "live-server",
