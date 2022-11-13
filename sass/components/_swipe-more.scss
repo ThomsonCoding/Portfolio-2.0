@@ -1,0 +1,9 @@
+.swipemore {
+  font-size: 1.7rem;
+  width: 100%;
+  text-align: center;
+
+  @include respond(desktop) {
+    display: none;
+  }
+}

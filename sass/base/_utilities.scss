@@ -1,5 +1,25 @@
 .no-scroll {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-top-bottom-small {
+  margin: 1.5rem 0 !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important;
+}
+
+.u-margin-top-bottom-medium {
+  margin: 2.5rem 0 !important;
+}
+
+.secondary-heading {
+  font-size: 2rem;
+  color: $color-black;
+  font-weight: 600;
+}

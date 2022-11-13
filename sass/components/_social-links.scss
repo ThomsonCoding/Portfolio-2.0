@@ -1,11 +1,27 @@
 .social-links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
-    width: 100%;
+  width: 100%;
 
-    @include respond(desktop) {
-        display: none;
-    }
+  &__linkedIn {
+    fill: #0a66c2;
+  }
+
+  &__facebook {
+    fill: #3b5998;
+  }
+
+  &__twitter {
+    fill: #00acee;
+  }
+
+  &__youtube {
+    fill: #ff0000;
+  }
+
+  @include respond(desktop) {
+    display: none;
+  }
 }
