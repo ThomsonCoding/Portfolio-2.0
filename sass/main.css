@@ -949,7 +949,7 @@ section {
 }
 
 .section-packages__info li::before {
-  content: url(../../img/blue-tick.svg);
+  content: url(../../Portfolio-2.0/img/blue-tick.svg);
   padding-right: 0.8rem;
 }
 
