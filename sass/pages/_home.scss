@@ -115,6 +115,14 @@ section {
       color: $color-black;
       word-wrap: break-word;
 
+      &:first-child {
+        margin-left: 1rem;
+      }
+
+      &:last-child {
+        margin-right: 1rem;
+      }
+
       @include respond(desktop) {
         min-width: unset;
 
@@ -191,6 +199,14 @@ section {
       padding: 3rem 4rem;
       color: $color-black;
       word-wrap: break-word;
+
+      &:first-child {
+        margin-left: 1rem;
+      }
+
+      &:last-child {
+        margin-right: 1rem;
+      }
 
       @include respond(desktop) {
         min-width: unset;
