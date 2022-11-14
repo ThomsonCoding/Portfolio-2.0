@@ -3,13 +3,18 @@
   &:link,
   &:visited {
     text-decoration: none;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2.5rem;
     display: inline-block;
     border-radius: 1rem;
     transition: all 0.2s;
     position: relative;
     width: 100%;
-    max-width: 200px;
+    max-width: 270px;
+
+    @include respond(desktop) {
+      max-width: 200px;
+      padding: 1.5rem 2rem;
+    }
 
     //Change for the <button> element
     border: none;
