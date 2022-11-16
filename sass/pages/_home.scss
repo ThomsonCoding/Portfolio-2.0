@@ -101,6 +101,7 @@ section {
     gap: 0 2rem;
     padding: 5%;
     align-items: center;
+    width: 100%;
 
     @include respond(desktop) {
       padding: 2% 5%;
@@ -179,6 +180,7 @@ section {
     gap: 0 2rem;
     padding: 5%;
     align-items: center;
+    width: 100%;
 
     @include respond(desktop) {
       padding: 1% 5%;
