@@ -122,15 +122,6 @@ section {
 
       &:last-child {
         margin-right: 2rem;
-
-        :after {
-          content: "";
-          display: block;
-          position: absolute;
-          right: -2rem;
-          width: 2rem;
-          height: 1px;
-        }
       }
 
       @include respond(desktop) {
@@ -217,15 +208,6 @@ section {
 
       &:last-child {
         margin-right: 2rem;
-
-        :after {
-          content: "";
-          display: block;
-          position: absolute;
-          right: -2rem;
-          width: 2rem;
-          height: 1px;
-        }
       }
 
       @include respond(desktop) {
