@@ -116,11 +116,11 @@ section {
       word-wrap: break-word;
 
       &:first-child {
-        margin-left: 1rem;
+        margin-left: 2rem;
       }
 
       &:last-child {
-        margin-right: 1rem;
+        margin-right: 2rem;
       }
 
       @include respond(desktop) {
@@ -201,11 +201,11 @@ section {
       word-wrap: break-word;
 
       &:first-child {
-        margin-left: 1rem;
+        margin-left: 2rem;
       }
 
       &:last-child {
-        margin-right: 1rem;
+        margin-right: 2rem;
       }
 
       @include respond(desktop) {
