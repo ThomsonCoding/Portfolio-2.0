@@ -203,6 +203,7 @@ section {
       padding: 3rem 4rem;
       color: $color-black;
       word-wrap: break-word;
+      position: relative;
 
       &:last-child:after {
         content: "";
