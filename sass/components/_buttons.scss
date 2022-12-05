@@ -170,3 +170,16 @@
     box-shadow: none;
   }
 }
+
+.backToTop {
+  display: none;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  z-index: 99;
+  border: 1px solid $color-black;
+  background-color: $color-white;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
