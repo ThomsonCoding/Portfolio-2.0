@@ -199,7 +199,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  max-width: 40rem; }
   .social-links__linkedIn {
     fill: #0a66c2; }
   .social-links__facebook {
@@ -299,8 +300,7 @@ body {
         justify-content: center; }
         .header__button--container button,
         .header__button--container button:first-child {
-          margin: 0 0.5rem;
-          padding: 1.5rem 3rem; } }
+          margin: 0 0.5rem; } }
   .header__heading {
     font-size: 3.5rem;
     color: #000;
