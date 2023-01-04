@@ -17,6 +17,10 @@
       padding: 1.5rem 2rem;
     }
 
+    @include respond(big-desktop) {
+      max-width: 240px;
+    }
+
     //Change for the <button> element
     border: none;
     cursor: pointer;
