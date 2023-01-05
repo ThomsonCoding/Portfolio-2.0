@@ -52,6 +52,10 @@
     color: $color-black;
     font-weight: 300;
 
+    @include respond(tablet) {
+      font-size: 3.3rem;
+    }
+
     span {
       font-weight: 600;
       color: $color-tertiary-light;
