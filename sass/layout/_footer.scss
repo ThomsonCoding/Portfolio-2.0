@@ -13,14 +13,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
 
     &--input {
       display: flex;
       gap: 1rem;
+      justify-content: center;
+      height: 5rem;
 
       input {
         padding: 0 1.5rem;
         border-radius: 0.5rem;
+        height: 5rem;
+      }
+
+      button {
+        height: 5rem;
       }
     }
 
@@ -37,6 +45,8 @@
 
   &__logo {
     height: 10rem;
+    display: flex;
+    margin: 0 auto;
   }
 
   &__menu {
@@ -52,5 +62,16 @@
 
   &__copyright {
     font-size: 1.7rem;
+  }
+
+  #mc_embed_signup div.mce_inline_error {
+    background-color: white;
+    color: $color-tertiary-dark;
+  }
+
+  #mce-success-response {
+    color: $color-tertiary-dark;
+    font-size: 3rem;
+    text-align: center;
   }
 }
