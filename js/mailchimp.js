@@ -12,8 +12,3 @@ function submitForm(event) {
         }
     })
 }
-
-
-if (typeof test === 'undefined' && test2 === 'undefined') {
-    return undefined;
-}
