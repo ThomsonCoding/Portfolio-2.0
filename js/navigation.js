@@ -17,4 +17,3 @@ const toggleModal = () => {
     overlay.classList.toggle('overlay--active');
 }
 
-// Updated.
