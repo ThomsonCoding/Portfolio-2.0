@@ -42,10 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    @include respond(big-phone) {
-      width: 20%;
-    }
+    margin-left: 2rem;
 
     @include respond(desktop) {
       flex-direction: row;
@@ -54,22 +51,6 @@
   }
 
   &__open {
-    display: block;
-    height: 4.5rem;
-    width: 4.5rem;
-    background-color: transparent;
-    border: none;
-
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-
-    @include respond(desktop) {
-      display: none;
-    }
-  }
-
-  &__close {
     display: block;
     height: 4.5rem;
     width: 4.5rem;
@@ -117,15 +98,27 @@
     }
   }
 
+  &__logo--link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+      &::after {
+          content: "";
+          display: block;
+          margin: 0 auto;
+          width: 95%;
+          padding-top: 20px;
+          border-bottom: 1px solid #eee;
+      }
+  }
+
   &__logo {
     width: 70%;
     max-width: 70%;
-    margin-right: auto;
+    margin: 0 auto;
 
     @include respond(desktop) {
-      // max-width: 150px;
-      // max-height: 150px;
-      // margin-right: unset;
       display: none;
     }
   }
