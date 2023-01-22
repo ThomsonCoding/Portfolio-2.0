@@ -33,8 +33,6 @@
     width: 80%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 3rem;
-    max-height: 100vh;
-    height: 100vh;
   }
 
   &__menu {
@@ -108,14 +106,14 @@
     justify-content: center;
     flex-direction: column;
 
-      // &::after {
-      //     content: "";
-      //     display: block;
-      //     margin: 0 auto;
-      //     width: 95%;
-      //     padding-top: 1rem;
-      //     border-bottom: 1px solid #eee;
-      // }
+      &::after {
+          content: "";
+          display: block;
+          margin: 0 auto;
+          width: 95%;
+          padding-top: 1rem;
+          border-bottom: 1px solid #eee;
+      }
   }
 
   &__logo {
