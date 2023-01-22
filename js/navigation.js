@@ -16,3 +16,5 @@ const toggleModal = () => {
     navigationMeuu.classList.toggle('navigation--active');
     overlay.classList.toggle('overlay--active');
 }
+
+// Updated.
