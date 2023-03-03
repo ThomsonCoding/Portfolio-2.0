@@ -28,17 +28,17 @@ html {
   //     font-size: 75%; //1rem = 12, 12/16
   // }
 
-  @include respond(big-phone) {
-    font-size: 65.5%;
-  }
+  // @include respond(big-phone) {
+  //   font-size: 65.5%;
+  // }
 
-  @include respond(desktop) {
-    font-size: 65.5%;
-  }
+  // @include respond(desktop) {
+  //   font-size: 65.5%;
+  // }
 
-  @include respond(big-desktop) {
-    font-size: 75%;
-  }
+  // @include respond(big-desktop) {
+  //   font-size: 75%;
+  // }
 }
 
 body {
