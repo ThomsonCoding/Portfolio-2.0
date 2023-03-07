@@ -1,0 +1,106 @@
+.navigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: $color-white;
+  height: calc(100vh);
+  transition: 0.5s;
+  overflow-x: hidden;
+
+  @include respond(desktop) {
+    width: 100%;
+  }
+  
+  &--active {
+    width: 300px;
+  }
+
+  &--open {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+
+    @include respond(desktop) {
+      display: none;
+    }
+  }
+
+  &--logo {
+    display: none;
+
+    @include respond(desktop) {
+      display: block;
+      margin-right: auto;
+    }
+  }
+
+  &--wrapper {
+    display: flex;
+    flex-direction: column;
+    background: $color-white;
+    height: 100vh;
+    padding: 2rem;
+    transition: 0.3s;
+    min-width: 300px;
+
+    @include respond(desktop) {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &--header {
+    width: 100%;
+
+    @include respond(desktop) {
+      display: none;
+    }
+  }
+
+  &--menu {
+    height: auto;
+    padding-left: 2rem;
+    font-size: 2rem;
+
+    @include respond(desktop) {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    li {
+      padding: 1rem 0rem;
+
+      @include respond(desktop) {
+        padding: 1.5rem;
+        font-size: 1.7rem;
+      }
+
+      @include respond(big-desktop) {
+        padding: 2rem;
+        font-size: 2.5rem;
+      }
+    }
+
+    .active {
+      color:$color-primary;
+    }
+  }
+
+  &--footer {
+    margin-top: auto;
+
+    @include respond(desktop) {
+      display: none;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+}

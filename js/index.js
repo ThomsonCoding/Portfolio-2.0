@@ -1,3 +1,1 @@
-// import '../js/example.js';
-
-console.log("Testing");
+import '../js/navigation.js';
