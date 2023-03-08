@@ -1,4 +1,4 @@
-window.onresize = function() {
-    document.body.height = window.innerHeight;
-}
-window.onresize(); 
+// window.onresize = function() {
+//     document.body.height = window.innerHeight;
+// }
+// window.onresize(); 

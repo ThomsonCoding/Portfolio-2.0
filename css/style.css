@@ -12,7 +12,11 @@ html {
   font-size: 56.25%;
   overflow: hidden;
   height: 100%;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  padding-top: env(safe-area-inset-top);
+  /* dynamically set the top padding based on the height of the mobile device's search function */
+  padding-bottom: env(safe-area-inset-bottom);
+  /* dynamically set the bottom padding based on the height of the mobile device's search function */ }
 
 body {
   box-sizing: border-box;
@@ -20,7 +24,11 @@ body {
   max-width: 1350px;
   margin: 0 auto;
   overflow: auto;
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: env(safe-area-inset-top);
+  /* dynamically set the top padding based on the height of the mobile device's search function */
+  padding-bottom: env(safe-area-inset-bottom);
+  /* dynamically set the bottom padding based on the height of the mobile device's search function */ }
 
 ::selection {
   background-color: #005b96;
@@ -116,11 +124,7 @@ body {
   transition: 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  overflow-x: hidden;
-  padding-top: env(safe-area-inset-top);
-  /* dynamically set the top padding based on the height of the mobile device's search function */
-  padding-bottom: env(safe-area-inset-bottom);
-  /* dynamically set the bottom padding based on the height of the mobile device's search function */ }
+  overflow-x: hidden; }
   @media only screen and (min-width: 63.9em) {
     .navigation {
       width: 100%; } }
