@@ -43,28 +43,6 @@ a {
 .visually-hidden {
   display: none; }
 
-/* Styles for devices with search bar at the top */
-@media (orientation: portrait) and (max-height: 800px) {
-  body {
-    padding-top: env(safe-area-inset-top);
-    /* dynamically set the padding based on the height of the search bar at the top */ } }
-
-@media (orientation: landscape) and (max-height: 450px) {
-  body {
-    padding-top: env(safe-area-inset-top);
-    /* dynamically set the padding based on the height of the search bar at the top */ } }
-
-/* Styles for devices with search bar at the bottom */
-@media (orientation: portrait) and (min-height: 801px) {
-  body {
-    padding-bottom: env(safe-area-inset-bottom);
-    /* dynamically set the padding based on the height of the search bar at the bottom */ } }
-
-@media (orientation: landscape) and (min-height: 451px) {
-  body {
-    padding-bottom: env(safe-area-inset-bottom);
-    /* dynamically set the padding based on the height of the search bar at the bottom */ } }
-
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
