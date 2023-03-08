@@ -11,6 +11,8 @@
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   overflow-x: hidden;
+  padding-top: env(safe-area-inset-top); /* dynamically set the top padding based on the height of the mobile device's search function */
+  padding-bottom: env(safe-area-inset-bottom); /* dynamically set the bottom padding based on the height of the mobile device's search function */
 
   @include respond(desktop) {
     width: 100%;
