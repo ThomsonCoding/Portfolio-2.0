@@ -12,6 +12,8 @@ html {
   overflow: hidden;
   height: 100%;
   background-color: $color-grey-light-1;
+  padding-top: env(safe-area-inset-top); /* dynamically set the top padding based on the height of the mobile device's search function */
+  padding-bottom: env(safe-area-inset-bottom); /* dynamically set the bottom padding based on the height of the mobile device's search function */
 
   // // This defines what 1rem is
   // font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
@@ -49,8 +51,6 @@ body {
   margin: 0 auto;
   overflow: auto;
   background-color: $color-white;
-  padding-top: env(safe-area-inset-top); /* dynamically set the top padding based on the height of the mobile device's search function */
-  padding-bottom: env(safe-area-inset-bottom); /* dynamically set the bottom padding based on the height of the mobile device's search function */
 }
 
 ::selection {
