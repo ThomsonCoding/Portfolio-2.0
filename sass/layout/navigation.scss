@@ -1,5 +1,5 @@
 .navigation {
-  height: 100vh;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1000;
@@ -42,10 +42,10 @@
     display: flex;
     flex-direction: column;
     background: $color-white;
-    height: 100vh;
-    padding: 2rem;
+    height: 100%;
     transition: 0.3s;
     min-width: 300px;
+    padding: 2rem;
 
     @include respond(desktop) {
       height: auto;
