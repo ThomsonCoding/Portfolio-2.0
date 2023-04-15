@@ -35,6 +35,10 @@
     @include respond(desktop) {
       display: block;
       margin-right: auto;
+
+      img {
+        height: 15rem;
+      }
     }
   }
 
@@ -68,7 +72,7 @@
 
     @include respond(desktop) {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: flex-end;
     }
 
