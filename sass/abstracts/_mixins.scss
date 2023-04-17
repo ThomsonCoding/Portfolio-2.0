@@ -16,8 +16,8 @@ This is used to center the position of items throughout the site, reduciing the 
   display: block;
   margin: 0 auto;
   width: 90%;
-  padding-top: 20px;
-  border-bottom: 1px solid $color-grey-light-2;
+  margin: 2rem 0;
+  border-bottom: 1px solid $color-grey-dark;
 }
 
 @mixin respond($breakpoint) {
