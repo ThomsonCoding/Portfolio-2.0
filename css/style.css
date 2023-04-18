@@ -88,11 +88,13 @@ body {
     .footer__main {
       display: flex;
       align-items: center;
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000;
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999;
       width: 98%;
-      padding: 3rem;
-      margin: auto; } }
+      padding: 1rem 3rem;
+      margin: auto; }
+      .footer__main .footer--subscription {
+        width: 50%; } }
   .footer--menu {
     display: flex;
     margin: 1.25rem 0;
@@ -103,6 +105,19 @@ body {
     @media only screen and (max-width: 30em) {
       .footer--menu {
         display: none; } }
+    @media only screen and (min-width: 63.9em) {
+      .footer--menu {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 70px;
+        padding: 0rem 4rem;
+        border-left: 1px solid #000; }
+        .footer--menu li {
+          flex-basis: calc(33.33% - 10px);
+          margin-bottom: 0; } }
 
 .header {
   width: 100%;

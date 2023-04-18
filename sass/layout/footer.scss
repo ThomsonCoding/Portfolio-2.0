@@ -19,11 +19,15 @@
             display: flex;
             align-items: center;
 
-            border-top: 1px solid $color-black;
-            border-bottom: 1px solid $color-black;
+            border-top: 1px solid $color-grey-dark-2;
+            border-bottom: 1px solid $color-grey-dark-2;
             width: 98%;
-            padding: 3rem;
+            padding: 1rem 3rem;
             margin: auto;
+
+            .footer--subscription {
+                width: 50%;
+            }
         }
     }
 
@@ -39,6 +43,22 @@
 
         @include respond(only-mobile) {
             display: none;
+        }
+
+        @include respond(desktop) {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            flex-direction: column;
+            height: 70px;
+            padding: 0rem 4rem;
+            border-left: 1px solid $color-black;
+
+            li {
+                flex-basis: calc(33.33% - 10px);
+                margin-bottom: 0;
+            }
         }
     }
 }
