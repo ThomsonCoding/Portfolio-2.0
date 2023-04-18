@@ -81,6 +81,18 @@ body {
   font-size: 1.5rem;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (min-width: 63.9em) {
+    .footer #mc_embed_signup {
+      width: auto; } }
+  @media only screen and (min-width: 63.9em) {
+    .footer__main {
+      display: flex;
+      align-items: center;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      width: 98%;
+      padding: 3rem;
+      margin: auto; } }
   .footer--menu {
     display: flex;
     margin: 1.25rem 0;
@@ -196,13 +208,14 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center; }
-  .subsciption::after, .subsciption::before {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    margin: 2rem 0;
-    border-bottom: 1px solid #777; }
+  @media only screen and (max-width: 63.9em) {
+    .subsciption::after, .subsciption::before {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      margin: 2rem 0;
+      border-bottom: 1px solid #777; } }
   .subsciption__fields {
     display: flex;
     margin: 1rem 0;

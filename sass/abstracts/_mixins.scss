@@ -27,6 +27,12 @@ This is used to center the position of items throughout the site, reduciing the 
     }
   }
 
+  @if $breakpoint == only-mobile-and-tablet {
+    @media only screen and (max-width: 63.9em) {
+      @content;
+    }
+  }
+
   @if $breakpoint == above-mobile {
     @media (min-width: 31em) {
       @content;
