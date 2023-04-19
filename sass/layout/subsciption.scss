@@ -23,15 +23,16 @@
         padding: 0rem 1rem;
         margin-left: -5px;
         background-color: $color-black;
-        color: $color-white;
+        color: $color-grey-light-2;
         border-radius: 0 0.5rem 0.5rem 0;
         border: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: 400;
     }
 
     &__input {
         height: 100%;
-        padding: 0 6px 0 3px;
+        padding: 0 6px 0 10px;
         border-radius: 0.5rem 0 0 0.5rem;
         border: solid black 1px;
     }
