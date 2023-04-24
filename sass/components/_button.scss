@@ -1,6 +1,21 @@
 .btn {
     width: 100%;
-    max-width: 15rem;
-    padding: 1rem 1.5rem;
+    max-width: 25rem;
+    padding: 1.5rem 2rem;
     margin: 1rem 0;
+    border-radius: .5rem;
+    white-space: nowrap; // Prevents the text from wrapping onto two lines
+    overflow: hidden; // Hides any text that goes beyond the button's width
+    text-align: center;
+
+    &--black {
+        background-color: $color-black;
+        color: $color-white;
+        border: none;
+    }
+
+    &--white {
+        background-color: $color-white;
+        border: 1px solid $color-black;
+    }
 }

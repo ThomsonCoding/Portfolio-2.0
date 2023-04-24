@@ -64,9 +64,20 @@ body {
 
 .btn {
   width: 100%;
-  max-width: 15rem;
-  padding: 1rem 1.5rem;
-  margin: 1rem 0; }
+  max-width: 25rem;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  border-radius: .5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center; }
+  .btn--black {
+    background-color: #000;
+    color: #fff;
+    border: none; }
+  .btn--white {
+    background-color: #fff;
+    border: 1px solid #000; }
 
 .overlay {
   display: none; }
@@ -94,17 +105,19 @@ body {
       margin-top: 1rem;
       color: #999;
       font-size: 1.2rem; } }
-  @media only screen and (min-width: 63.9em) {
-    .footer__main {
-      display: flex;
-      align-items: center;
-      border-top: 1px solid rgba(198, 197, 197, 0.637);
-      border-bottom: 1px solid rgba(198, 197, 197, 0.637);
-      width: 95%;
-      padding: 2.5rem 3rem;
-      margin: auto; }
-      .footer__main .footer--subscription {
-        width: 50%; } }
+  .footer__main {
+    text-align: center; }
+    @media only screen and (min-width: 63.9em) {
+      .footer__main {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid rgba(198, 197, 197, 0.637);
+        border-bottom: 1px solid rgba(198, 197, 197, 0.637);
+        width: 95%;
+        padding: 2.5rem 3rem;
+        margin: auto; }
+        .footer__main .footer--subscription {
+          width: 50%; } }
   .footer--menu {
     display: flex;
     margin: 1.25rem 0;

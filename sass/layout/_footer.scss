@@ -21,6 +21,8 @@
     }
 
     &__main {
+        text-align: center;
+        
         @include respond(desktop) {
             display: flex;
             align-items: center;
