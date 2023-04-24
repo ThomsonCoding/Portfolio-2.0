@@ -17,6 +17,7 @@
     height: auto;
     margin: auto;
     left: auto;
+    background-color: transparent;
   }
   
   &--active {
@@ -39,8 +40,6 @@
     @include respond(desktop) {
       display: block;
       margin-right: auto;
-      background-color: transparent;
-
 
       img {
         height: 10rem;
@@ -62,6 +61,7 @@
     @include respond(desktop) {
       height: auto;
       width: 100%;
+      background-color: transparent;
     }
   }
 
