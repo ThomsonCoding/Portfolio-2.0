@@ -1,0 +1,7 @@
+.tailoredApproach {
+    
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(auto-fil, minmax(16rem, 1fr));
+    }
+}
