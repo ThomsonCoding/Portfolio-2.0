@@ -1,7 +1,45 @@
 .tailoredApproach {
     
-    &__content {
-        display: grid;
-        grid-template-columns: repeat(auto-fil, minmax(16rem, 1fr));
+    &__content--mobile {
+        display: none;
+        
+        @include respond(only-mobile) {
+            display: block;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* creates a grid with two columns */
+            grid-auto-rows: minmax(200px, auto); /* sets the height of each row */
+
+            img {
+                width: 100%; /* ensures the images fill the grid cells */
+                height: 100%;
+                object-fit: cover; /* maintains the aspect ratio of the images */
+            }
+        }
     }
+
+    &__content--desktop {
+        @include respond(only-mobile) { display: none; };
+
+        display: flex;
+        padding: 0 4rem;
+
+        &--contentbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        h3 {
+            padding: 2rem;
+        }
+
+        img {
+            width: 150px; /* ensures the images fill the grid cells */
+            height: 120px;
+            object-fit: cover; /* maintains the aspect ratio of the images */
+        }
+    }
+
 }
