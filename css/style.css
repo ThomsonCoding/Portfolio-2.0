@@ -52,6 +52,9 @@ h2 {
   margin: 1.5rem;
   padding: 0 2rem;
   font-size: clamp(2rem, 2rem, 3rem); }
+  @media only screen and (min-width: 63.9em) {
+    h2 {
+      font-size: 2.5rem; } }
 
 .no-scroll {
   overflow: hidden; }
@@ -77,7 +80,8 @@ h2 {
   border-radius: .5rem;
   white-space: nowrap;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+  font-size: 100%; }
   .btn--black {
     background-color: #000;
     color: #fff;
@@ -96,6 +100,11 @@ h2 {
     height: 100vh;
     background-color: rgba(238, 238, 238, 0.7);
     transition: 0.5s; }
+
+.website__examples--imageLogo {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem; }
 
 .footer {
   margin-top: auto;
@@ -182,7 +191,8 @@ h2 {
     margin: 2rem 0; }
     @media (min-width: 31em) {
       .main__section h2 {
-        font-size: 4rem; } }
+        font-size: 4rem;
+        max-width: 80rem; } }
   @media (min-width: 31em) {
     .main__section--cta {
       display: flex;
@@ -317,42 +327,58 @@ h2 {
     border-radius: 0.5rem 0 0 0.5rem;
     border: solid black 1px; }
 
-.tailoredApproach__content--mobile {
-  display: none; }
-  @media only screen and (max-width: 30em) {
-    .tailoredApproach__content--mobile {
-      display: block;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      /* creates a grid with two columns */
-      grid-auto-rows: minmax(200px, auto);
-      /* sets the height of each row */ }
-      .tailoredApproach__content--mobile img {
-        width: 100%;
-        /* ensures the images fill the grid cells */
-        height: 100%;
-        object-fit: cover;
-        /* maintains the aspect ratio of the images */ } }
-
-.tailoredApproach__content--desktop {
-  display: flex;
-  padding: 0 4rem;
-  max-width: 70rem;
-  margin: 0 auto; }
-  @media only screen and (max-width: 30em) {
-    .tailoredApproach__content--desktop {
-      display: none; } }
-  .tailoredApproach__content--desktop--contentbox {
+.tailoredApproach {
+  margin: 2rem 0; }
+  .tailoredApproach__content--mobile {
+    display: none; }
+    @media only screen and (max-width: 30em) {
+      .tailoredApproach__content--mobile {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* creates a grid with two columns */
+        grid-auto-rows: minmax(200px, auto);
+        /* sets the height of each row */ }
+        .tailoredApproach__content--mobile img {
+          width: 100%;
+          /* ensures the images fill the grid cells */
+          height: 100%;
+          object-fit: cover;
+          /* maintains the aspect ratio of the images */ } }
+  .tailoredApproach__content--desktop {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 3rem 1rem; }
-  .tailoredApproach__content--desktop h3 {
-    padding: 2rem; }
-  .tailoredApproach__content--desktop img {
-    width: 150px;
-    /* ensures the images fill the grid cells */
-    height: 120px;
-    object-fit: cover;
-    /* maintains the aspect ratio of the images */ }
+    padding: 0 4rem;
+    max-width: 70rem;
+    margin: 0 auto; }
+    @media only screen and (max-width: 30em) {
+      .tailoredApproach__content--desktop {
+        display: none; } }
+    @media only screen and (min-width: 63.9em) {
+      .tailoredApproach__content--desktop {
+        max-width: 100rem; }
+        .tailoredApproach__content--desktop a {
+          font-size: 1.4rem; } }
+    .tailoredApproach__content--desktop--contentbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem; }
+    .tailoredApproach__content--desktop h3 {
+      padding: 2rem 1.5rem;
+      font-size: 1rem; }
+      @media only screen and (min-width: 63.9em) {
+        .tailoredApproach__content--desktop h3 {
+          padding: 3rem 2.5rem;
+          font-size: 1.5rem; } }
+    .tailoredApproach__content--desktop img {
+      width: 190px;
+      /* ensures the images fill the grid cells */
+      height: 120px;
+      object-fit: cover;
+      /* maintains the aspect ratio of the images */ }
+      @media only screen and (min-width: 63.9em) {
+        .tailoredApproach__content--desktop img {
+          width: 240px;
+          /* ensures the images fill the grid cells */
+          height: 160px; } }

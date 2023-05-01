@@ -1,4 +1,5 @@
 .tailoredApproach {
+    margin: 2rem 0;
     
     &__content--mobile {
         display: none;
@@ -24,22 +25,42 @@
         max-width: 70rem;
         margin: 0 auto;
 
+        @include respond(desktop) {
+            max-width: 100rem;
+
+            a {
+                font-size: 1.4rem;
+            }
+        }
+
         &--contentbox {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 3rem 1rem;
+            padding: 1rem;
         }
 
         h3 {
-            padding: 2rem;
+            padding: 2rem 1.5rem;
+            font-size: 1rem;
+
+            @include respond(desktop) {
+                padding: 3rem 2.5rem;
+                font-size: 1.5rem;
+            }
         }
 
         img {
-            width: 150px; /* ensures the images fill the grid cells */
+            width: 190px; /* ensures the images fill the grid cells */
             height: 120px;
             object-fit: cover; /* maintains the aspect ratio of the images */
+            
+            @include respond(desktop) {
+                width: 240px; /* ensures the images fill the grid cells */
+                height: 160px;
+            }
+            
         }
     }
 

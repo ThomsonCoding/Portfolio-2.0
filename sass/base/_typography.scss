@@ -9,4 +9,8 @@ h2 {
   margin: 1.5rem;
   padding: 0 2rem;
   font-size: clamp(2rem, 2rem, 3rem);
+
+  @include respond(desktop) {
+    font-size: 2.5rem;
+  }
 }
