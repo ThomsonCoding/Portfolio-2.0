@@ -19,9 +19,10 @@
 
     &__content--desktop {
         @include respond(only-mobile) { display: none; };
-
         display: flex;
         padding: 0 4rem;
+        max-width: 70rem;
+        margin: 0 auto;
 
         &--contentbox {
             display: flex;
