@@ -9,5 +9,14 @@
         margin: 1rem;
         border: 1px black solid;
         border-radius: 1rem;
+
+        &:last-child:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: -2rem;
+            width: 2rem;
+            height: 1px;
+        }
     }
 }
