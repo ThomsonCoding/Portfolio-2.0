@@ -2,7 +2,37 @@
 
     &--imageLogo {
         border-radius: 50%;
-        height: 5rem;
-        width: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    &--usercard {
+        display: flex;
+        margin: 1rem 0 0 0;
+    }
+
+    &--userinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 2rem;
+    }
+
+    &--review {
+        font-size: 1.2rem;
+    }
+
+    &--name {
+        font-size: 2rem;
+    }
+
+    &--business {
+        font-size: 1.5rem;
+    }
+
+    &--website {
+        font-style: italic;
+        font-weight: 400;
+        color: $color-grey-dark;
     }
 }

@@ -101,10 +101,45 @@ h2 {
     background-color: rgba(238, 238, 238, 0.7);
     transition: 0.5s; }
 
+.carousel {
+  display: flex;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: scroll; }
+  .carousel--item {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: 1px black solid;
+    border-radius: 1rem; }
+
 .website__examples--imageLogo {
   border-radius: 50%;
-  height: 2rem;
-  width: 2rem; }
+  height: 10rem;
+  width: 10rem; }
+
+.website__examples--usercard {
+  display: flex;
+  margin: 1rem 0 0 0; }
+
+.website__examples--userinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2rem; }
+
+.website__examples--review {
+  font-size: 1.2rem; }
+
+.website__examples--name {
+  font-size: 2rem; }
+
+.website__examples--business {
+  font-size: 1.5rem; }
+
+.website__examples--website {
+  font-style: italic;
+  font-weight: 400;
+  color: #777; }
 
 .footer {
   margin-top: auto;
