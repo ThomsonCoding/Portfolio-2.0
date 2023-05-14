@@ -3,7 +3,7 @@
     max-width: 25rem;
     max-height: 6rem;
     padding: 1.5rem 2rem;
-    margin: 1rem 0;
+    margin: 1rem 0 .3rem 0;
     border-radius: .5rem;
     white-space: nowrap; // Prevents the text from wrapping onto two lines
     overflow: hidden; // Hides any text that goes beyond the button's width
@@ -19,5 +19,15 @@
     &--white {
         background-color: $color-white;
         border: 1px solid $color-black;
+    }
+
+    &--clear {
+        background-color: transparent;
+        border: none;
+        font-size: 1.4rem;
+    }
+
+    &--consultation {
+        margin: 0 1rem;
     }
 }
