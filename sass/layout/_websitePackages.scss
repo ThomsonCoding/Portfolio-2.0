@@ -42,7 +42,7 @@
         align-items: center;
 
         &::before {
-            content: url(/img/blue-tick.svg);
+            content: url(../img/blue-tick.svg);
             padding-right: 0.8rem;
         }
     }

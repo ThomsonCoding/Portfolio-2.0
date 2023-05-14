@@ -481,5 +481,5 @@ h2 {
   font-size: 1.3rem;
   align-items: center; }
   .website__packages li::before {
-    content: url(/img/blue-tick.svg);
+    content: url(../img/blue-tick.svg);
     padding-right: 0.8rem; }
