@@ -4,18 +4,19 @@
     // max-width: 100vw;
     overflow-x: scroll;
 
-    &--item {
-        // &:last-child:after {
-        //     content: "";
-        //     display: block;
-        //     position: absolute;
-        //     right: -2rem;
-        //     width: 2rem;
-        //     height: 1px;
-        // }
-
-        &:last-child {
-            margin-right: 2rem !important;
-        }
+    &::after {
+        content: "";
+        flex: 0 0 30px;
     }
+
+    // &--item {
+    //     &:last-child:after {
+    //         content: "";
+    //         display: block;
+    //         position: absolute;
+    //         right: -2rem;
+    //         width: 2rem;
+    //         height: 1px;
+    //     }
+    // }
 }
