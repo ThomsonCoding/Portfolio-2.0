@@ -84,7 +84,8 @@ h2 {
   overflow: hidden;
   text-align: center;
   font-size: 100%;
-  color: inherit; }
+  color: inherit;
+  font-size: 140%; }
   .btn--black {
     background-color: #000;
     color: #fff;
@@ -483,3 +484,6 @@ h2 {
   .website__packages li::before {
     content: url(../img/blue-tick.svg);
     padding-right: 0.8rem; }
+
+.website__packages .btn {
+  max-width: 22rem; }
