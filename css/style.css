@@ -121,7 +121,7 @@ h2 {
   overflow-x: scroll; }
   .carousel::after {
     content: "";
-    flex: 0 0 30px; }
+    flex: 0 0 1rem; }
 
 .website__examples--imageLogo {
   border-radius: 50%;
