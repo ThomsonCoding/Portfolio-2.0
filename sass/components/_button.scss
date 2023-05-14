@@ -21,6 +21,12 @@
         border: 1px solid $color-black;
     }
 
+    &--blue {
+        background-color: $color-tertiary-light;
+        color: $color-white;
+        border: none;
+    }
+
     &--clear {
         background-color: transparent;
         border: none;

@@ -51,6 +51,10 @@ body {
   background-color: $color-white;
   display: flex;
   flex-direction: column;
+
+  & > section {
+    padding: 1.5rem 0;
+  }
 }
 
 ::selection {
