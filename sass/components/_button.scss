@@ -16,23 +16,42 @@
         background-color: $color-black;
         color: $color-white;
         border: none;
+
+        &:hover {
+            background-color:$color-tertiary-dark;
+            color: $color-secondary-light;
+        }
     }
 
     &--white {
         background-color: $color-white;
         border: 1px solid $color-black;
+
+        &:hover {
+            color: $color-secondary-light;
+            border: 1px solid $color-secondary-light;
+        }
     }
 
     &--blue {
         background-color: $color-tertiary-light;
         color: $color-white;
         border: none;
+
+        &:hover {
+            color:$color-tertiary-dark;
+            background-color: $color-secondary-light;
+        }
     }
 
     &--clear {
         background-color: transparent;
         border: none;
         font-size: 1.4rem;
+
+        &:hover {
+            color: $color-secondary-light;
+        }
     }
 
     &--consultation {

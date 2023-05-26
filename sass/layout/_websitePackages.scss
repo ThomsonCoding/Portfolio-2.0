@@ -1,7 +1,14 @@
 .website__packages {
 
+    .carousel {
+        @include respond(desktop) {
+            justify-content: center;
+        }
+    }
+
     .carousel--item {
-        min-width: 90vw;
+        min-width: 30rem;
+        max-width: 30rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -9,6 +16,16 @@
         margin: 1rem;
         border: 1px black solid;
         border-radius: 1rem;
+
+        @include respond(desktop) {
+            &:nth-child(1), &:nth-child(3){
+                margin: 1.8rem;
+            }
+
+            &:nth-child(2) {
+                border: 2px $color-tertiary-light solid;
+            }
+        }
     }
 
     h3 {
@@ -27,7 +44,10 @@
 
     p {
         font-size: 1.4rem;
-        padding: 0 3rem;
+        padding: 1rem 2rem;
+        height: 8rem;
+        display: flex;
+        align-items: center;
     }
 
     ul {

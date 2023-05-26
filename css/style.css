@@ -27,6 +27,9 @@ body {
   flex-direction: column; }
   body > section {
     padding: 1.5rem 0; }
+    @media only screen and (min-width: 63.9em) {
+      body > section {
+        padding: 1.5rem 3rem; } }
 
 ::selection {
   background-color: #005b96;
@@ -90,17 +93,28 @@ h2 {
     background-color: #000;
     color: #fff;
     border: none; }
+    .btn--black:hover {
+      background-color: #054861;
+      color: #ffb900; }
   .btn--white {
     background-color: #fff;
     border: 1px solid #000; }
+    .btn--white:hover {
+      color: #ffb900;
+      border: 1px solid #ffb900; }
   .btn--blue {
     background-color: #30c8c9;
     color: #fff;
     border: none; }
+    .btn--blue:hover {
+      color: #054861;
+      background-color: #ffb900; }
   .btn--clear {
     background-color: transparent;
     border: none;
     font-size: 1.4rem; }
+    .btn--clear:hover {
+      color: #ffb900; }
   .btn--consultation {
     margin: 0 1rem; }
 
@@ -157,6 +171,9 @@ h2 {
   margin: 1rem;
   border: 1px black solid;
   border-radius: 1rem; }
+  @media only screen and (min-width: 63.9em) {
+    .website__examples .carousel--item:nth-child(1), .website__examples .carousel--item:nth-child(3) {
+      margin: 1.5rem; } }
 
 .website__examples--cta {
   margin: 0 auto;
@@ -267,7 +284,11 @@ h2 {
       .main__section--cta > div, .main__section--cta > button {
         max-width: 50%; }
       .main__section--cta p {
-        font-size: 1.4rem; } }
+        font-size: 1.4rem; }
+      .main__section--cta .btn {
+        min-width: 20rem; }
+      .main__section--cta .btn--consultation {
+        font-size: .9rem; } }
 
 .navigation {
   height: 100%;
@@ -288,7 +309,7 @@ h2 {
       height: auto;
       margin: auto;
       left: auto;
-      background-color: transparent; } }
+      background-color: rgba(255, 255, 255, 0.8); } }
   .navigation--active {
     width: 300px; }
   .navigation--open {
@@ -305,8 +326,8 @@ h2 {
         display: block;
         margin-right: auto; }
         .navigation--logo img {
-          height: 10rem;
-          width: 10rem; } }
+          height: 7rem;
+          width: 7rem; } }
   .navigation--wrapper {
     display: flex;
     flex-direction: column;
@@ -317,9 +338,9 @@ h2 {
     padding: 2rem; }
     @media only screen and (min-width: 63.9em) {
       .navigation--wrapper {
-        height: auto;
         width: 100%;
-        background-color: transparent; } }
+        background-color: transparent;
+        padding: 1rem 2rem 0 2rem; } }
   .navigation--header {
     width: 100%; }
     @media only screen and (min-width: 63.9em) {
@@ -447,8 +468,13 @@ h2 {
         /* ensures the images fill the grid cells */
         height: 160px; } }
 
+@media only screen and (min-width: 63.9em) {
+  .website__packages .carousel {
+    justify-content: center; } }
+
 .website__packages .carousel--item {
-  min-width: 90vw;
+  min-width: 30rem;
+  max-width: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -456,6 +482,11 @@ h2 {
   margin: 1rem;
   border: 1px black solid;
   border-radius: 1rem; }
+  @media only screen and (min-width: 63.9em) {
+    .website__packages .carousel--item:nth-child(1), .website__packages .carousel--item:nth-child(3) {
+      margin: 1.8rem; }
+    .website__packages .carousel--item:nth-child(2) {
+      border: 2px #30c8c9 solid; } }
 
 .website__packages h3 {
   font-size: 2.5rem;
@@ -471,7 +502,10 @@ h2 {
 
 .website__packages p {
   font-size: 1.4rem;
-  padding: 0 3rem; }
+  padding: 1rem 2rem;
+  height: 8rem;
+  display: flex;
+  align-items: center; }
 
 .website__packages ul {
   text-align: left;
