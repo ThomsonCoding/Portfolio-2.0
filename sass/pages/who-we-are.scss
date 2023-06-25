@@ -1,0 +1,67 @@
+.who-we-are {
+    &--personImage {
+        height: 18rem;
+        padding: 1rem 0rem;
+        border-radius: 1.5rem;
+    }
+
+    &__section {
+        background: linear-gradient(
+            to top,
+            white 0%,
+            white 50%,
+            $color-primary 50%,
+            $color-primary 100%
+          );
+
+        h2 { 
+            color: $color-white;
+            font-size: 2.5rem;
+            margin-top: 5rem;
+        }  
+
+        h3 {
+            font-size: 1.8rem;
+        }
+
+        h5 {
+            color: $color-primary;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        p {
+            padding: 1rem 2rem;
+            font-weight: 200;
+        }
+
+        .carousel {
+            @include respond(desktop) {
+                justify-content: center;
+            }
+        }
+
+        .carousel--item {
+            min-width: 30rem;
+            max-width: 30rem;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 1rem;
+            background-color: white;
+            border-radius: 1rem;
+        }
+
+        .social-links {
+            display: flex;
+            align-items: center;
+            padding: 1rem 0;
+
+            li {
+                padding: 0 .8rem;
+            }
+        }
+    }
+}

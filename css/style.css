@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column; }
   body > section {
-    padding: 1.5rem 0; }
+    padding: 2rem 0 0 0; }
     @media only screen and (min-width: 63.9em) {
       body > section {
         padding: 1.5rem 3rem; } }
@@ -103,7 +103,7 @@ h2 {
       color: #ffb900;
       border: 1px solid #ffb900; }
   .btn--blue {
-    background-color: #30c8c9;
+    background-color: #005b96;
     color: #fff;
     border: none; }
     .btn--blue:hover {
@@ -502,7 +502,7 @@ h2 {
 
 .website__packages p {
   font-size: 1.4rem;
-  padding: 1rem 2rem;
+  padding: 0rem 1rem 2rem 1rem;
   height: 8rem;
   display: flex;
   align-items: center; }
@@ -522,3 +522,44 @@ h2 {
 
 .website__packages .btn {
   max-width: 22rem; }
+
+.who-we-are--personImage {
+  height: 18rem;
+  padding: 1rem 0rem;
+  border-radius: 1.5rem; }
+
+.who-we-are__section {
+  background: linear-gradient(to top, white 0%, white 50%, #005b96 50%, #005b96 100%); }
+  .who-we-are__section h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 5rem; }
+  .who-we-are__section h3 {
+    font-size: 1.8rem; }
+  .who-we-are__section h5 {
+    color: #005b96;
+    font-weight: 600;
+    font-size: 1.2rem; }
+  .who-we-are__section p {
+    padding: 1rem 2rem;
+    font-weight: 200; }
+  @media only screen and (min-width: 63.9em) {
+    .who-we-are__section .carousel {
+      justify-content: center; } }
+  .who-we-are__section .carousel--item {
+    min-width: 30rem;
+    max-width: 30rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem; }
+  .who-we-are__section .social-links {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0; }
+    .who-we-are__section .social-links li {
+      padding: 0 .8rem; }
