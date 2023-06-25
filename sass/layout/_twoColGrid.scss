@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3rem; /* Adjust the gap between items as desired */
+    max-width: 610px;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+  }
+  
+  .grid-item {
+    min-height: 300px;
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+  

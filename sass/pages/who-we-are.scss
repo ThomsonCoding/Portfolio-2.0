@@ -1,4 +1,15 @@
 .who-we-are {
+    
+        @include respond(desktop) {
+            .navigation {
+                background-color: transparent;
+
+                .navigation--menu li.active {
+                    color: $color-white;
+                }
+            }
+        }
+
     &--personImage {
         height: 35rem;
         max-height: 350px;
@@ -28,6 +39,10 @@
             color: $color-white;
             font-size: 2.5rem;
             margin-top: 5rem;
+
+            @include respond(desktop) {
+                font-size: 3.5rem;
+            }
         }  
 
         h3 {
