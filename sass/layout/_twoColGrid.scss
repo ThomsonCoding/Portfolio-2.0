@@ -1,19 +1,17 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 3rem; /* Adjust the gap between items as desired */
-    max-width: 610px;
-    margin: 0 auto;
-    padding: 1rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 3rem;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+
+    @include respond(desktop) {
+      grid-gap: 6.5rem; /* Adjust the gap between items as desired */
+      max-width: 850px;
   }
   
   .grid-item {
     min-height: 300px;
   }
-  
-  @media (max-width: 600px) {
-    .grid-container {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
 }
-  

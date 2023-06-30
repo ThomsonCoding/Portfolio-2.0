@@ -42,6 +42,7 @@ li,
 a {
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
   color: inherit; }
 
 .visually-hidden {
@@ -357,16 +358,20 @@ h2 {
         justify-content: flex-end; } }
     .navigation--menu li {
       padding: 1rem 0rem; }
+      .navigation--menu li:hover {
+        color: #30c8c9; }
       @media only screen and (min-width: 63.9em) {
         .navigation--menu li {
           padding: 1.5rem;
           font-size: 1.5rem; } }
       @media only screen and (min-width: 112.5em) {
         .navigation--menu li {
-          padding: 2rem;
-          font-size: 2.5rem; } }
+          padding: 1.8rem;
+          font-size: 1.8rem; } }
     .navigation--menu .active {
       color: #005b96; }
+      .navigation--menu .active:hover {
+        color: #30c8c9; }
   .navigation--footer {
     margin-top: auto; }
     @media only screen and (min-width: 63.9em) {
@@ -470,19 +475,18 @@ h2 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 3rem;
-  /* Adjust the gap between items as desired */
-  max-width: 610px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 1rem 4rem; }
-
-.grid-item {
-  min-height: 300px; }
-
-@media (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); } }
+  @media only screen and (min-width: 63.9em) {
+    .grid-container {
+      grid-gap: 6.5rem;
+      /* Adjust the gap between items as desired */
+      max-width: 850px; } }
+  .grid-container .grid-item {
+    min-height: 300px; }
 
 @media only screen and (min-width: 63.9em) {
   .website__packages .carousel {
@@ -599,18 +603,25 @@ h2 {
 
 .our-blog h2 {
   font-size: 4.5rem;
-  margin-top: 7rem;
   text-align: left;
   font-style: italic;
   font-weight: 300;
   color: #000;
-  line-height: 1.2; }
+  line-height: 1.2;
+  max-width: 600px;
+  margin: 8rem auto 2rem auto; }
   @media only screen and (min-width: 63.9em) {
     .our-blog h2 {
-      font-size: 3.5rem; } }
+      font-size: 4.5rem;
+      max-width: 800px;
+      margin: 14rem auto 2rem auto; } }
 
 .our-blog h5 {
   font-size: 2rem; }
+  .our-blog h5:hover {
+    text-decoration: underline;
+    color: #30c8c9;
+    cursor: pointer; }
 
 .our-blog h6 {
   font-size: 1.5rem;
