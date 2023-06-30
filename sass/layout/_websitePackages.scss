@@ -14,7 +14,7 @@
         align-items: center;
         text-align: center;
         margin: 1rem;
-        border: 1px black solid;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 1rem;
 
         @include respond(desktop) {
