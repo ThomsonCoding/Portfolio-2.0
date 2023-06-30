@@ -11,7 +11,8 @@
     background-image: linear-gradient(
         to bottom, transparent, #ffffff
     ), url("../../img/mainBackground.webp");
-
+    background-position: center center;
+    
     @include respond(above-mobile) {
         max-width: 90vw;
     }
