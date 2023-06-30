@@ -8,6 +8,9 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-image: linear-gradient(
+        to bottom, transparent, #ffffff
+    ), url("../../img/mainBackground.webp");
 
     @include respond(above-mobile) {
         max-width: 90vw;
