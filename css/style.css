@@ -267,7 +267,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(to bottom, transparent, #ffffff), url("../../img/mainBackground.webp");
+  background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp");
   background-position: center center; }
   @media (min-width: 31em) {
     .main__section {
