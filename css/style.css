@@ -413,8 +413,11 @@ h2 {
     -webkit-border-radius: 0 0.7rem 0.7rem 0;
     color: #eee;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400; }
+    @media only screen and (max-width: 30em) {
+      .subsciption__button {
+        font-size: 1.7rem; } }
   .subsciption__input {
     height: 100%;
     padding: 0 20px 0 10px;
