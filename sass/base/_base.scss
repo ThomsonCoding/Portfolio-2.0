@@ -78,6 +78,10 @@ a {
   color: inherit;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+}
+
 .visually-hidden {
   display: none;
 }
