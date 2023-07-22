@@ -421,6 +421,8 @@ h2 {
     padding: 0 6px 0 10px;
     border-radius: 0.5rem 0 0 0.5rem;
     border: solid black 1px; }
+    .subsciption__input:focus {
+      outline: none; }
 
 .tailoredApproach__content--mobile {
   display: none; }
