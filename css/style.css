@@ -407,14 +407,14 @@ h2 {
     justify-content: center;
     height: 3.5rem; }
   .subsciption__button {
-    padding: 0rem 1rem;
+    padding: 0rem 2.5rem;
     margin-left: -5px;
     background-color: #005b96;
     border-radius: 0 0.7rem 0.7rem 0;
     -webkit-border-radius: 0 0.7rem 0.7rem 0;
     color: #eee;
     border: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400; }
   .subsciption__input {
     height: 100%;
