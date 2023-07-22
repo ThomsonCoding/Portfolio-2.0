@@ -16,12 +16,11 @@
         display: flex;
         margin: 1rem 0;
         justify-content: center;
-        height: 3.5rem;
+        height: 4rem;
     }
 
     &__button {
         padding: 0rem 2.5rem;
-        margin-left: -5px;
         background-color: $color-primary;
         border-radius: 0 0.7rem 0.7rem 0;
         -webkit-border-radius: 0 0.7rem 0.7rem 0;
@@ -33,7 +32,7 @@
 
     &__input {
         height: 100%;
-        padding: 0 6px 0 10px;
+        padding: 0 20px 0 10px;
         border-radius: 0.5rem 0 0 0.5rem;
         border: solid black 1px;
 
