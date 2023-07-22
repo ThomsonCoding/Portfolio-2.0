@@ -1,65 +1,72 @@
 .contact-us {
-    h2 { 
-        font-size: 4rem;
-        text-align: left;
-        font-style: italic;
-        font-weight: 300;
-        color: black;
-        line-height: 1.2;
-        max-width: 350px;
-        margin: 8rem auto 2rem auto;
-
-        @include respond(desktop) {
-            font-size: 4.5rem;
-            max-width: 800px;
-            margin: 14rem auto 2rem auto;
-        }
-    } 
-
-    h6 {
-        font-size: 2rem;
-        color: $color-grey-dark-3;
-        font-weight: 400;
-    }
-
-    p {
-        font-size: 1.3rem;
-        color: $color-grey-dark;
-        font-style: italic;
-    }
-
-
-    form {
+    &__section {
         display: flex;
         flex-direction: column;
-        padding: 3.7rem;
+        
+        h2 { 
+            font-size: 4rem;
+            text-align: left;
+            font-style: italic;
+            font-weight: 300;
+            color: black;
+            line-height: 1.2;
+            max-width: 350px;
+            margin: 8rem auto 2rem auto;
 
-        & > input, & > textarea {
-            margin: 1rem 0;
+            @include respond(desktop) {
+                font-size: 4.5rem;
+                max-width: 800px;
+                margin: 14rem auto 2rem auto;
+            }
+        } 
+
+        h6 {
+            font-size: 2rem;
+            color: $color-grey-dark-3;
+            font-weight: 400;
         }
 
-        input {
-            border: none;
-            border-bottom: solid 1px black;
-            padding: 1rem 0;
+        p {
+            font-size: 1.3rem;
+            color: $color-grey-dark;
+            font-style: italic;
+        }
 
-            &input {
-                text-decoration: none;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 3.7rem;
+            max-width: 40rem;
+            margin: 0 auto;
+
+            & > input, & > textarea {
+                margin: 1rem 0;
             }
 
-            &:focus {
-                border-bottom: solid 1px $color-primary;
+            input {
+                border: none;
+                border-bottom: solid 1px black;
+                padding: 1rem 0;
+
+                &input {
+                    text-decoration: none;
+                }
+
+                &:focus {
+                    border-bottom: solid 1px $color-primary;
+                }
             }
-        }
 
-        textarea {
-            min-height: 15rem;
-            padding: 1rem;
-        }
+            textarea {
+                min-height: 15rem;
+                padding: 1rem;
+            }
 
-        .btn {
-            min-width: 100%;
-            padding: 1.5rem;
+            .btn--contact-us {
+                min-width: 100%;
+                padding: 1.5rem;
+            }
         }
     }
 }
