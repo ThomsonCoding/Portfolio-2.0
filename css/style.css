@@ -557,6 +557,13 @@ h2 {
 .contact-us__section {
   display: flex;
   flex-direction: column; }
+  @media (min-width: 31em) {
+    .contact-us__section {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      height: 100vw; } }
   .contact-us__section h2 {
     font-size: 4rem;
     text-align: left;
@@ -566,6 +573,32 @@ h2 {
     line-height: 1.2;
     max-width: 350px;
     margin: 8rem auto 2rem auto; }
+    @media (min-width: 31em) {
+      .contact-us__section h2 {
+        position: relative;
+        display: inline-block;
+        padding: 100px;
+        margin: 0;
+        color: white;
+        /* Adjust text color as needed */
+        background-color: #3498db;
+        /* Adjust background color as needed */
+        border-radius: 50%;
+        /* Create a circular shape */
+        margin-left: -150px;
+        /* Adjust this value to move the left side off the screen */ }
+        .contact-us__section h2 ::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -10px;
+          /* Adjust this value to control the width of the empty space on the left */
+          width: 10px;
+          /* Adjust this value to control the width of the empty space on the left */
+          height: 100%;
+          background-color: #fff;
+          /* Adjust this color to match your background color */
+          border-radius: 50%; } }
     @media only screen and (min-width: 63.9em) {
       .contact-us__section h2 {
         font-size: 4.5rem;
@@ -582,9 +615,13 @@ h2 {
   .contact-us__section form {
     display: flex;
     flex-direction: column;
-    padding: 1rem 3.7rem;
-    max-width: 40rem;
+    padding: 1rem 1rem;
+    max-width: 50rem;
+    width: 80vw;
     margin: 0 auto; }
+    @media (min-width: 31em) {
+      .contact-us__section form {
+        max-width: 35rem; } }
     .contact-us__section form > input, .contact-us__section form > textarea {
       margin: 1rem 0; }
     .contact-us__section form input {
