@@ -554,6 +554,13 @@ h2 {
 .website__packages .btn {
   max-width: 22rem; }
 
+@media only screen and (min-width: 31em) and (max-width: 63.9em) {
+  .contact-us__header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at left, #005b96 60%, transparent 40%); } }
+
 .contact-us__section {
   display: flex;
   flex-direction: column; }
@@ -572,33 +579,10 @@ h2 {
     color: black;
     line-height: 1.2;
     max-width: 350px;
-    margin: 8rem auto 2rem auto; }
-    @media (min-width: 31em) {
-      .contact-us__section h2 {
-        position: relative;
-        display: inline-block;
-        padding: 100px;
-        margin: 0;
-        color: white;
-        /* Adjust text color as needed */
-        background-color: #3498db;
-        /* Adjust background color as needed */
-        border-radius: 50%;
-        /* Create a circular shape */
-        margin-left: -150px;
-        /* Adjust this value to move the left side off the screen */ }
-        .contact-us__section h2 ::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: -10px;
-          /* Adjust this value to control the width of the empty space on the left */
-          width: 10px;
-          /* Adjust this value to control the width of the empty space on the left */
-          height: 100%;
-          background-color: #fff;
-          /* Adjust this color to match your background color */
-          border-radius: 50%; } }
+    margin: 8rem auto 2rem auto;
+    z-index: 2;
+    color: #ffb900;
+    font-weight: 400; }
     @media only screen and (min-width: 63.9em) {
       .contact-us__section h2 {
         font-size: 4.5rem;

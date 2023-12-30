@@ -1,4 +1,15 @@
 .contact-us {
+
+
+    @include respond(only-tablet) { 
+        &__header {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background: radial-gradient(circle at left, $color-primary 60%, transparent 40%); // Replace with the desired color
+        }
+    }
+
     &__section {
         display: flex;
         flex-direction: column;
@@ -20,30 +31,9 @@
             line-height: 1.2;
             max-width: 350px;
             margin: 8rem auto 2rem auto;
-
-            @include respond(above-mobile) {                 
-                    position: relative;
-                    display: inline-block;
-                    padding: 100px;
-                    margin: 0;
-                    color: white; /* Adjust text color as needed */
-                    background-color: #3498db; /* Adjust background color as needed */
-                    border-radius: 50%; /* Create a circular shape */
-                    margin-left: -150px; /* Adjust this value to move the left side off the screen */
-                
-                
-                ::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: -10px; /* Adjust this value to control the width of the empty space on the left */
-                    width: 10px; /* Adjust this value to control the width of the empty space on the left */
-                    height: 100%;
-                    background-color: #fff; /* Adjust this color to match your background color */
-                    border-radius: 50%;
-                }
-
-            }
+            z-index: 2;
+            color: $color-secondary-light;
+            font-weight: 400;
 
             @include respond(desktop) {
                 font-size: 4.5rem;
