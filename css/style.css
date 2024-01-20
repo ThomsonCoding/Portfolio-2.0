@@ -512,12 +512,28 @@ h2 {
   text-align: center;
   margin: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  position: relative; }
   @media only screen and (min-width: 63.9em) {
     .website__packages .carousel--item:nth-child(1), .website__packages .carousel--item:nth-child(3) {
       margin: 1.8rem; }
     .website__packages .carousel--item:nth-child(2) {
       border: 2px #30c8c9 solid; } }
+
+.website__packages .recommendPil {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #ff7730;
+  border: none;
+  color: #f7f7f7;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px; }
 
 .website__packages h3 {
   font-size: 2.5rem;
