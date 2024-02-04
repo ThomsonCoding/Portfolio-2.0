@@ -22,7 +22,7 @@
         
         <title>DANIEL THOMSON &mdash; PERSONAL PORTFOLIO</title>
     </head>
-    <body class="contact-us">
+    <body data-page-title="contact-us" class="contact-us">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWFFHL"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -67,7 +67,7 @@
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <textarea name="question" placeholder="Your question..." required></textarea>
-                <button class="btn btn--black btn--contact-us" type="submit">GET IN TOUCH</button>
+                <button id="getInTouch" class="btn btn--black btn--contact-us" type="submit">GET IN TOUCH</button>
             </form>
 
             
@@ -119,6 +119,8 @@
             </div>
             <p class="footer--copyrights"><a href="www.linkedin.com/in/djthomson1">&copy; 2023, Daniel Thomson</a></p>
         </footer>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="module" src="js/getInTouch.js"></script>
         <script type="module" src="js/index.js"></script>
     </body>
 </html>
