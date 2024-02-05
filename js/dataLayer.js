@@ -47,3 +47,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  let listItems = document.querySelectorAll("#navigationMenu li");
+
+  listItems.forEach(function(item) {
+      item.addEventListener("click", function() {
+          let selectedText = item.textContent.trim();
+        console.log("working");
+          dataLayer.push({
+              event: "navigationClick",
+              selectedListItem: selectedText
+          });
+      });
+  });
+});
