@@ -52,10 +52,8 @@ document.addEventListener('DOMContentLoaded', function () {
   let listItems = document.querySelectorAll(".navigation--menu li");
 
   listItems.forEach(function(item) {
-    console.log("working");
       item.addEventListener("click", function() {
           let selectedText = item.textContent.trim();
-        console.log("working");
           dataLayer.push({
               event: "navigationClick",
               selectedListItem: selectedText
