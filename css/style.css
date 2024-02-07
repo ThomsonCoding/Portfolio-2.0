@@ -80,6 +80,69 @@ h2 {
 .u-margin-top-bottom-medium {
   margin: 2.5rem 0 !important; }
 
+.accordion-container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 4rem auto;
+  padding: 0 1.5rem; }
+
+.accordion-item {
+  background-color: #ffffff;
+  border-radius: .4rem;
+  padding: 1rem; }
+  .accordion-item hr {
+    border: 1px solid rgba(0, 0, 0, 0.5); }
+
+.accordion-link {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0; }
+  .accordion-link h3 {
+    font-weight: 500;
+    font-size: 20px; }
+  .accordion-link i {
+    color: #e7d5ff;
+    padding: .5rem; }
+  .accordion-link ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-left: 25px; }
+    .accordion-link ul li {
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.4);
+      padding: 0 0 1px 5px; }
+  .accordion-link div {
+    display: flex; }
+  .accordion-link .ion-md-arrow-down {
+    display: none; }
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  transition: max-height 650ms; }
+  .answer p {
+    color: #000;
+    font-size: 15px;
+    padding: 2rem; }
+
+.accordion-item:target .answer {
+  max-height: 20rem; }
+
+.accordion-item:target .accordion-link .ion-md-arrow-forward {
+  display: none; }
+
+.accordion-item:target .accordion-link .ion-md-arrow-down {
+  display: block; }
+
 .btn {
   width: 100%;
   max-width: 25rem;
@@ -680,7 +743,7 @@ h2 {
   text-align: left;
   font-style: italic;
   font-weight: 300;
-  color: #000;
+  color: black;
   line-height: 1.2;
   max-width: 600px;
   margin: 5rem auto 1rem auto; }
