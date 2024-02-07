@@ -41,6 +41,10 @@
       align-items: flex-end;
       list-style-type: none;
       margin-left: 25px;
+
+      @include respond(only-mobile) {
+          display: none;
+      }
   
       li {
         font-size: 10px;
@@ -48,7 +52,7 @@
         padding: 0 0 1px 5px;
       }
     }
-  
+
     div {
       display: flex;
     }

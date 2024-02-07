@@ -114,6 +114,9 @@ h2 {
     align-items: flex-end;
     list-style-type: none;
     margin-left: 25px; }
+    @media only screen and (max-width: 30em) {
+      .accordion-link ul {
+        display: none; } }
     .accordion-link ul li {
       font-size: 10px;
       color: rgba(0, 0, 0, 0.6);
