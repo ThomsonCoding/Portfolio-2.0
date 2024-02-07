@@ -134,13 +134,13 @@ h2 {
     font-size: 15px;
     padding: 2rem; }
 
-.accordion-item:target .answer {
+.accordion-item:focus .answer {
   max-height: 20rem; }
 
-.accordion-item:target .accordion-link .ion-md-arrow-forward {
+.accordion-item:focus .accordion-link .ion-md-arrow-forward {
   display: none; }
 
-.accordion-item:target .accordion-link .ion-md-arrow-down {
+.accordion-item:focus .accordion-link .ion-md-arrow-down {
   display: block; }
 
 .btn {

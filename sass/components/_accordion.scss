@@ -72,7 +72,7 @@
     }
   }
   
-  .accordion-item:target {
+  .accordion-item:focus {
     .answer {
       max-height: 20rem;
     }

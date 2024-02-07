@@ -17,3 +17,6 @@ navigationOpen.addEventListener("click", openNavgiation);
 navigationClose.addEventListener("click", closeNavgiation);
 
 overlay.addEventListener("click", closeNavgiation);
+
+
+
