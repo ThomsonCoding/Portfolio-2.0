@@ -192,6 +192,10 @@
                     z-index: 2;
                     transition: all 200ms linear;
                 }
+                .active {
+                    color: #102770;
+                    background-color: #ffeba7;
+                }
             }
             a {
                 position: relative;

@@ -903,6 +903,9 @@ h2 {
       display: block;
       z-index: 2;
       transition: all 200ms linear; }
+    .our-process__section .sec-center .section-dropdown .active {
+      color: #102770;
+      background-color: #ffeba7; }
   .our-process__section .sec-center a {
     position: relative;
     color: #fff;
