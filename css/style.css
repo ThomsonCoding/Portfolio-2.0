@@ -295,7 +295,11 @@ h2 {
     .footer--menu li {
       margin: 0 1rem;
       font-weight: 500;
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      height: 100%;
+      width: auto; }
+    .footer--menu img {
+      display: none; }
     @media only screen and (max-width: 30em) {
       .footer--menu {
         display: none; } }
@@ -310,6 +314,10 @@ h2 {
         padding: 0rem 4rem;
         border-left: 1px solid rgba(198, 197, 197, 0.637);
         align-content: space-around; }
+        .footer--menu img {
+          display: block;
+          height: 100%;
+          width: auto; }
         .footer--menu li {
           flex-basis: calc(33.33% - 10px);
           margin-bottom: 0; } }
@@ -317,11 +325,14 @@ h2 {
 .header {
   width: 100%; }
   .header--logo {
+    width: auto;
     position: fixed;
     top: 2%;
     right: 5%;
-    width: 40px;
     text-align: center; }
+    .header--logo img {
+      width: 8rem;
+      height: 8rem; }
     @media only screen and (min-width: 63.9em) {
       .header--logo {
         display: none; } }

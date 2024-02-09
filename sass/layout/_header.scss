@@ -3,14 +3,20 @@
     // height: 700px;
 
     &--logo {
+        width: auto;
         position: fixed;
         top: 2%;
         right: 5%;
-        width: 40px;
         text-align: center;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
 
         @media only screen and (min-width: 63.9em) {
             display: none;
         }
     }
+
 }
