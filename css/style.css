@@ -716,6 +716,26 @@ h2 {
       min-width: 100%;
       padding: 1.5rem; }
 
+@media only screen and (min-width: 36.5em) {
+  .faq__section {
+    max-width: 80vw;
+    margin: auto; } }
+
+.faq__section h2 {
+  font-size: 3rem;
+  text-align: left;
+  font-style: italic;
+  font-weight: 300;
+  color: black;
+  line-height: 1.2;
+  max-width: 600px;
+  margin: 5rem auto 1rem auto; }
+  @media only screen and (min-width: 63.9em) {
+    .faq__section h2 {
+      font-size: 4.5rem;
+      max-width: 800px;
+      margin: 14rem auto 2rem auto; } }
+
 .our-blog h2 {
   font-size: 4.5rem;
   text-align: left;
