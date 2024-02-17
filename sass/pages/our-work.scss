@@ -5,6 +5,10 @@
         flex-direction: column;
         align-items: center;
 
+        .btn {
+            min-width: 20rem;
+        }
+
         @include respond(above-mobile) {
             flex-direction: row;
             align-items: flex-start;
@@ -54,6 +58,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: minmax(200px, auto);
+        margin: 1rem auto;
 
         @include respond(above-mobile) { display: none; }
 
