@@ -413,6 +413,12 @@ h2 {
         .navigation--logo img {
           height: 7rem;
           width: 7rem; } }
+  .navigation--mobilelogo {
+    display: flex;
+    justify-content: center; }
+    .navigation--mobilelogo img {
+      height: 10rem;
+      width: auto; }
   .navigation--wrapper {
     display: flex;
     flex-direction: column;
