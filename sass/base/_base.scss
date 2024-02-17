@@ -53,7 +53,7 @@ body {
   flex-direction: column;
 
   & > section {
-    padding: 2rem 0 0 0;
+    padding: 2rem 0;
 
     @include respond(desktop) {
       padding: 1rem 3rem;
