@@ -404,7 +404,8 @@ h2 {
   .navigation--open {
     position: fixed;
     top: 2%;
-    left: 5%; }
+    left: 5%;
+    z-index: 2; }
     @media only screen and (min-width: 63.9em) {
       .navigation--open {
         display: none; } }
