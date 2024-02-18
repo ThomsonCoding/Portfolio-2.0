@@ -452,16 +452,16 @@ h2 {
         align-items: flex-start;
         justify-content: flex-end; } }
     .navigation--menu li {
-      padding: 1rem 0rem; }
+      margin: 1rem 0rem; }
       .navigation--menu li:hover {
         color: #30c8c9; }
       @media only screen and (min-width: 63.9em) {
         .navigation--menu li {
-          padding: 1.5rem;
+          margin: 1.5rem;
           font-size: 1.5rem; } }
       @media only screen and (min-width: 112.5em) {
         .navigation--menu li {
-          padding: 1.8rem;
+          margin: 1.8rem;
           font-size: 1.8rem; } }
     .navigation--menu .active {
       color: #005b96; }

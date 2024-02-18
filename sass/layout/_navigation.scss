@@ -96,19 +96,19 @@
     }
 
     li {
-      padding: 1rem 0rem;
+      margin: 1rem 0rem;
 
       &:hover {
         color: $color-tertiary-light;
       }
 
       @include respond(desktop) {
-        padding: 1.5rem;
+        margin: 1.5rem;
         font-size: 1.5rem;
       }
 
       @include respond(big-desktop) {
-        padding: 1.8rem;
+        margin: 1.8rem;
         font-size: 1.8rem;
       }
     }
