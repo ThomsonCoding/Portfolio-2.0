@@ -27,6 +27,8 @@ body {
   flex-direction: column; }
   body > section {
     padding: 2rem 0; }
+    body > section:first-child, body > section:last-child {
+      padding: 2rem 0 0 0; }
     @media only screen and (min-width: 63.9em) {
       body > section {
         padding: 1rem 3rem; } }
