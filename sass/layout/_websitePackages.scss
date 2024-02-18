@@ -29,10 +29,14 @@
         }
     }
 
-    .recommendPil { 
+    .recommendPilHolder {
         position: absolute;
         top: 1rem;
         right: 1rem;
+    }
+
+    .recommendPil { 
+        position: relative; /* Keep position as relative */
         background-color: $color-secondary-dark;
         border: none;
         color: $color-grey-light-1;
@@ -43,7 +47,26 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 16px;
+    
+        .tooltiptext {
+            visibility: hidden;
+            width: 160px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            top: -2rem; 
+            left: 6rem;
+            z-index: 100;
+        }
+    
+        &:hover .tooltiptext {
+            visibility: visible;
+        }
     }
+    
 
     h3 {
         font-size: 2.5rem;

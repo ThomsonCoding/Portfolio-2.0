@@ -608,10 +608,14 @@ h2 {
     .website__packages .carousel--item:nth-child(2) {
       border: 2px #30c8c9 solid; } }
 
-.website__packages .recommendPil {
+.website__packages .recommendPilHolder {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 1rem; }
+
+.website__packages .recommendPil {
+  position: relative;
+  /* Keep position as relative */
   background-color: #ff7730;
   border: none;
   color: #f7f7f7;
@@ -622,6 +626,20 @@ h2 {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px; }
+  .website__packages .recommendPil .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    top: -2rem;
+    left: 6rem;
+    z-index: 100; }
+  .website__packages .recommendPil:hover .tooltiptext {
+    visibility: visible; }
 
 .website__packages h3 {
   font-size: 2.5rem;
