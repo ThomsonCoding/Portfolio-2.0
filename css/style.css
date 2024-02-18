@@ -655,7 +655,7 @@ h2 {
     padding-right: 0.8rem; }
 
 .website__packages .btn {
-  max-width: 22rem; }
+  width: 22rem; }
 
 @media only screen and (min-width: 31em) and (max-width: 63.9em) {
   .contact-us__header {
