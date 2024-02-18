@@ -1064,9 +1064,10 @@ h2 {
 .who-we-are--personImage {
   height: 35rem;
   max-height: 350px;
-  max-width: 90%;
-  padding: 1rem 0rem;
-  border-radius: 1.5rem; }
+  width: 95%;
+  max-width: 95%;
+  padding: 0.5rem 0rem;
+  border-radius: 2.5rem; }
   @media only screen and (min-width: 63.9em) {
     .who-we-are--personImage {
       max-height: 30rem; } }
@@ -1091,7 +1092,11 @@ h2 {
     font-size: 1.2rem; }
   .who-we-are__section p {
     padding: 1rem 2rem;
-    font-weight: 200; }
+    font-weight: 300;
+    line-height: 2;
+    color: #000;
+    text-align: left;
+    text-shadow: 0 0 1px transparent; }
   @media only screen and (min-width: 63.9em) {
     .who-we-are__section .carousel {
       justify-content: center; } }
@@ -1105,7 +1110,7 @@ h2 {
     text-align: center;
     margin: 1rem;
     background-color: white;
-    border-radius: 1rem; }
+    border-radius: 3rem; }
   .who-we-are__section .social-links {
     display: flex;
     align-items: center;
