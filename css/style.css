@@ -1092,6 +1092,7 @@ h2 {
     font-size: 1.2rem; }
   .who-we-are__section p {
     padding: 1rem 2rem;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 2;
     color: #000;
@@ -1109,7 +1110,7 @@ h2 {
     align-items: center;
     text-align: center;
     margin: 1rem;
-    background-color: white;
+    background-color: linen;
     border-radius: 3rem; }
   .who-we-are__section .social-links {
     display: flex;
