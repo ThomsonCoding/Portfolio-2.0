@@ -160,7 +160,8 @@ h2 {
   text-align: center;
   font-size: 100%;
   color: inherit;
-  font-size: 140%; }
+  font-size: 140%;
+  cursor: pointer; }
   .btn--black {
     background-color: #000;
     color: #fff;
