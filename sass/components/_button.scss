@@ -45,6 +45,17 @@
         }
     }
 
+    &--secondary-light {
+        background-color: $color-secondary-light;
+        color: $color-white;
+        border: none;
+
+        &:hover {
+            color:$color-white;
+            background-color: $color-primary;
+        }
+    }
+
     &--clear {
         background-color: transparent;
         border: none;
