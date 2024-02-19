@@ -91,3 +91,6 @@ textarea:focus, input:focus{
   display: none;
 }
 
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
