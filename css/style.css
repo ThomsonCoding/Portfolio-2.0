@@ -364,6 +364,8 @@ h2 {
       .main__section h2 {
         font-size: 4rem;
         max-width: 80rem; } }
+    .main__section h2 span {
+      color: #ff7730; }
   @media (min-width: 31em) {
     .main__section--cta {
       display: flex;
@@ -814,7 +816,7 @@ h2 {
   color: black;
   line-height: 1.2;
   max-width: 600px;
-  margin: 5rem auto 1rem auto; }
+  margin: 6rem auto 1rem auto; }
   @media only screen and (min-width: 63.9em) {
     .our-process__section h2 {
       font-size: 4.5rem;

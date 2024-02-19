@@ -26,6 +26,10 @@
             font-size: 4rem;
             max-width: 80rem;
         }
+
+        span {
+            color: $color-secondary-dark;
+        }
     }
 
     &--cta {
