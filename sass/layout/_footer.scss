@@ -50,6 +50,18 @@
             font-size: 1.4rem;
             height: 100%;
             width: auto;
+
+            &:hover {
+                color: $color-tertiary-light;
+            }
+        }
+
+        .active {
+            color: $color-secondary-dark;
+    
+            &:hover {
+                color: $color-tertiary-light;
+            }
         }
 
         img {

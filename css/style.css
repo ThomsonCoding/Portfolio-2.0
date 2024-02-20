@@ -317,6 +317,12 @@ h2 {
       font-size: 1.4rem;
       height: 100%;
       width: auto; }
+      .footer--menu li:hover {
+        color: #30c8c9; }
+    .footer--menu .active {
+      color: #ff7730; }
+      .footer--menu .active:hover {
+        color: #30c8c9; }
     .footer--menu img {
       display: none; }
     @media only screen and (max-width: 30em) {
