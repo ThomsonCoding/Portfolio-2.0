@@ -9,7 +9,6 @@
 html {
   // This defines what 1rem is
   font-size: 56.25%; //1 rem = 10px; 10px/16px = 62.5%
-  overflow: hidden;
   height: 100%;
   background-color: $color-grey-light-1;
 
@@ -42,6 +41,10 @@ html {
 }
 
 body {
+
+}
+
+.page {
   box-sizing: border-box;
   height: 100%;
   width: 1350px;
@@ -93,4 +96,8 @@ textarea:focus, input:focus{
 
 .aos-init[data-aos][data-aos].aos-animate {
   transform: unset;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

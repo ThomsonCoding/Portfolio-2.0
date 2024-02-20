@@ -1,5 +1,6 @@
 const resizeBody = () => {
-    document.body.style.height = window.innerHeight + "px";
+    document.querySelector('.page')
+    page.style.height = window.innerHeight + "px";
 }
 
   // Call the function when the page loads

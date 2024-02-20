@@ -10,12 +10,11 @@ This is used to center the position of items throughout the site, reduciing the 
 
 html {
   font-size: 56.25%;
-  overflow: hidden;
   height: 100%;
   background-color: #f7f7f7;
   font-size: 62.5%; }
 
-body {
+.page {
   box-sizing: border-box;
   height: 100%;
   width: 1350px;
@@ -25,12 +24,12 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column; }
-  body > section {
+  .page > section {
     padding: 2rem 0; }
-    body > section:first-child, body > section:last-child {
+    .page > section:first-child, .page > section:last-child {
       padding: 2rem 0 0 0; }
     @media only screen and (min-width: 63.9em) {
-      body > section {
+      .page > section {
         padding: 1rem 3rem; } }
 
 ::selection {
@@ -55,6 +54,9 @@ textarea:focus, input:focus {
 
 .aos-init[data-aos][data-aos].aos-animate {
   transform: unset; }
+
+.no-scroll {
+  overflow: hidden; }
 
 body {
   font-family: "Lato", sans-serif;
