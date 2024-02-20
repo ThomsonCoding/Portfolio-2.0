@@ -26,7 +26,7 @@ html {
   flex-direction: column; }
   .page > section {
     padding: 2rem 0; }
-    .page > section:first-child, .page > section:last-child {
+    .page > section:first-of-type, .page > section:last-of-type {
       padding: 2rem 0 0 0; }
     @media only screen and (min-width: 63.9em) {
       .page > section {

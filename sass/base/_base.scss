@@ -58,8 +58,8 @@ body {
   & > section {
     padding: 2rem 0;
 
-    &:first-child,
-    &:last-child {
+    &:first-of-type,
+    &:last-of-type {
       padding: 2rem 0 0 0;
     }
 
