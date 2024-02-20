@@ -341,8 +341,7 @@ h2 {
           margin-bottom: 0; } }
 
 .header {
-  width: 100%;
-  padding: 0 !important; }
+  width: 100%; }
   .header--logo {
     width: auto;
     position: fixed;
