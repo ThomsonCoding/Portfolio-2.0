@@ -320,7 +320,8 @@ h2 {
       .footer--menu li:hover {
         color: #30c8c9; }
     .footer--menu .active {
-      color: #ff7730; }
+      color: #ff7730;
+      font-weight: 900; }
       .footer--menu .active:hover {
         color: #30c8c9; }
     .footer--menu img {
@@ -488,7 +489,8 @@ h2 {
           margin: 1.8rem;
           font-size: 1.8rem; } }
     .navigation--menu .active {
-      color: #005b96; }
+      color: #ff7730;
+      font-weight: 900; }
       .navigation--menu .active:hover {
         color: #30c8c9; }
   .navigation--footer {
@@ -692,7 +694,8 @@ h2 {
   padding: .5rem 0;
   display: flex;
   font-size: 1.3rem;
-  align-items: center; }
+  align-items: center;
+  cursor: default; }
   .website__packages li::before {
     content: url(../img/blue-tick.svg);
     padding-right: 0.8rem; }

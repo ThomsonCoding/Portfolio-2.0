@@ -100,6 +100,7 @@
         display: flex;
         font-size: 1.3rem;
         align-items: center;
+        cursor: default;
 
         &::before {
             content: url(../img/blue-tick.svg);
