@@ -863,7 +863,8 @@ h2 {
     padding: .6rem;
     border-radius: 1rem;
     border: none;
-    background-color: transparent; }
+    background-color: transparent;
+    color: #000; }
 
 .our-process__icons-container {
   display: grid;
