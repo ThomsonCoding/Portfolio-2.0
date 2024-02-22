@@ -851,14 +851,14 @@ h2 {
 
 .our-process__toggle {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 3rem auto;
-  padding: .5rem;
+  padding: 0.2rem 0rem;
   width: 100%;
   max-width: 20rem;
   gap: 1rem;
   background-color: rgba(198, 197, 197, 0.637);
-  border-radius: 1.5rem; }
+  border-radius: 2rem; }
   .our-process__toggle button {
     padding: .6rem;
     border-radius: 1rem;
