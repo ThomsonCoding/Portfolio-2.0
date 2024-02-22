@@ -68,28 +68,24 @@
     }
 }
 
-.starter {
-    button:nth-of-type(1) {
+.button-item {
         background-color: $color-white;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     }
-
-    .proItem, .enterpriseItem {
-        display: none;
+    
+    .starter button:nth-of-type(1) {
+        @extend .button-item;
     }
-}
-
-.pro {
-    button:nth-of-type(2) {
-        background-color: $color-white;
+    
+    .pro button:nth-of-type(2) {
+        @extend .button-item;
     }
-
+    
+    .enterprise button:nth-of-type(3) {
+        @extend .button-item;
+    }
+    
+    .proItem,
     .enterpriseItem {
         display: none;
-    }
-}
-
-.enterprise {
-    button:nth-of-type(3) {
-        background-color: $color-white;
-    }
 }

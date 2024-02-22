@@ -885,20 +885,13 @@ h2 {
       height: 4rem;
       width: auto; }
 
-.starter button:nth-of-type(1) {
-  background-color: #fff; }
+.button-item, .starter button:nth-of-type(1), .pro button:nth-of-type(2), .enterprise button:nth-of-type(3) {
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
 
-.starter .proItem, .starter .enterpriseItem {
+.proItem,
+.enterpriseItem {
   display: none; }
-
-.pro button:nth-of-type(2) {
-  background-color: #fff; }
-
-.pro .enterpriseItem {
-  display: none; }
-
-.enterprise button:nth-of-type(3) {
-  background-color: #fff; }
 
 .our-work--cta {
   margin: 0 auto;
