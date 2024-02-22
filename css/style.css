@@ -885,13 +885,23 @@ h2 {
       height: 4rem;
       width: auto; }
 
-.button-item, .starter button:nth-of-type(1), .pro button:nth-of-type(2), .enterprise button:nth-of-type(3) {
+.starter button:nth-of-type(1) {
   background-color: #fff;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
 
-.proItem,
-.enterpriseItem {
+.starter .proItem, .starter .enterpriseItem {
   display: none; }
+
+.pro button:nth-of-type(2) {
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
+
+.pro .enterpriseItem {
+  display: none; }
+
+.enterprise button:nth-of-type(3) {
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
 
 .our-work--cta {
   margin: 0 auto;
