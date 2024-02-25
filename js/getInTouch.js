@@ -1,6 +1,7 @@
 emailjs.init("hmwioTbWkNdQUfGML"); // Replace with your Email.js User ID
 
 const btn = document.getElementById('getInTouch');
+const headerText = document.querySelector('.contact-us__header h2');
 
 document.getElementById("contact-us__form").addEventListener("submit", function (event) {
 
@@ -15,6 +16,7 @@ document.getElementById("contact-us__form").addEventListener("submit", function 
     emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
             btn.innerHTML = 'Message sent!';
+            headerText.innerHTML = 'Message sent! We will be contact soon!';
         }, (err) => {
             btn.innerHTML = 'Error, please try again';
             alert(JSON.stringify(err));
