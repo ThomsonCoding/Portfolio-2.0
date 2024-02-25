@@ -887,6 +887,26 @@ h2 {
       height: 4rem;
       width: auto; }
 
+.our-process__processes-container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+  align-items: center;
+  flex-direction: column; }
+  .our-process__processes-container .item--logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 12rem; }
+  .our-process__processes-container--item {
+    display: flex;
+    align-items: center; }
+    .our-process__processes-container--item img {
+      height: 4rem;
+      width: auto; }
+    .our-process__processes-container--item p {
+      padding: 1rem; }
+
 .starter button:nth-of-type(1) {
   background-color: #fff;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
