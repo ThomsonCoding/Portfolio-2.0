@@ -25,21 +25,27 @@
 
     &__toggle {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin: 3rem auto;
         padding: 0.2rem 0rem;
-        width: 100%;
+        width: fit-content;
         max-width: 20rem;
-        gap: .5rem;
         background-color: $color-grey-light-3;
         border-radius: 2rem;
         
         button {
-            padding: .6rem;
-            border-radius: 1rem;
+            padding: .6rem 1rem;
             border: none;
             background-color: transparent;
             color: $color-black;
+
+            &:first-child {
+                margin: 0 0 0 0.4rem;
+            }
+
+            &:last-child {
+                margin: 0 0.4rem 0 0;
+            }
         }
     }
 
@@ -72,6 +78,7 @@
     button:nth-of-type(1) {
         background-color: $color-white;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        border-radius: 1rem 0 0 1rem;
     }
 
     .proItem, .enterpriseItem {
@@ -94,5 +101,6 @@
     button:nth-of-type(3) {
         background-color: $color-white;
         transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        border-radius: 0 1rem 1rem 0;
     }
 }

@@ -851,20 +851,22 @@ h2 {
 
 .our-process__toggle {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 3rem auto;
   padding: 0.2rem 0rem;
-  width: 100%;
+  width: fit-content;
   max-width: 20rem;
-  gap: .5rem;
   background-color: rgba(198, 197, 197, 0.637);
   border-radius: 2rem; }
   .our-process__toggle button {
-    padding: .6rem;
-    border-radius: 1rem;
+    padding: .6rem 1rem;
     border: none;
     background-color: transparent;
     color: #000; }
+    .our-process__toggle button:first-child {
+      margin: 0 0 0 0.4rem; }
+    .our-process__toggle button:last-child {
+      margin: 0 0.4rem 0 0; }
 
 .our-process__icons-container {
   display: grid;
@@ -887,7 +889,8 @@ h2 {
 
 .starter button:nth-of-type(1) {
   background-color: #fff;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 1rem 0 0 1rem; }
 
 .starter .proItem, .starter .enterpriseItem {
   display: none; }
@@ -901,7 +904,8 @@ h2 {
 
 .enterprise button:nth-of-type(3) {
   background-color: #fff;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; }
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 0 1rem 1rem 0; }
 
 .our-work--cta {
   margin: 0 auto;
