@@ -857,16 +857,16 @@ h2 {
   width: fit-content;
   max-width: 20rem;
   background-color: rgba(198, 197, 197, 0.637);
-  border-radius: 2rem; }
+  border-radius: 1.2rem; }
   .our-process__toggle button {
     padding: .6rem 1rem;
     border: none;
     background-color: transparent;
     color: #000; }
     .our-process__toggle button:first-child {
-      margin: 0 0 0 0.4rem; }
+      margin: 0 0 0 0.2rem; }
     .our-process__toggle button:last-child {
-      margin: 0 0.4rem 0 0; }
+      margin: 0 0.2rem 0 0; }
 
 .our-process__icons-container {
   display: grid;
