@@ -59,19 +59,34 @@
             flex-direction: column;
             align-items: center;
             min-width: 12rem;
+            border: 1px solid;
+            border-radius: 50%;
+            padding: 2.5rem;
+            z-index: 100;
+            background-color: cornsilk;
         }
 
         &--item {
             display: flex;
             align-items: center;
+            flex-direction: column;
+            max-width: 60rem;
+
+            &:not(:first-child) {
+                margin-top: -6rem;
+            }
 
             img {
                 height: 4rem;
                 width: auto;
             }
 
-            p { 
+            > p { 
                 padding: 1rem;
+                font-size: 1.4rem;
+                border: 0.1px solid black;
+                margin-top: -6rem;
+                padding: 7rem 2rem 7rem 2rem;
             }
         }
     }
