@@ -1,0 +1,75 @@
+.toggle {
+    &_wrapper {
+    margin: 4rem auto;
+    width: 100%;
+    }
+
+    &_radio {
+        position: relative;
+        background: rgba(0, 0, 0, 0.1);
+        margin: 4px auto;
+        overflow: hidden;
+        padding: 0 !important;
+        border-radius: 50px;
+        height: 36px;
+        width: 318px;
+
+        > * {
+        float: left;
+        }
+
+        input[type=radio] {
+        display: none;
+        }
+
+        label {
+        color: $color-black;
+        z-index: 0;
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin: 3px 3px;
+        border-radius: 50px;
+        cursor: pointer;
+        text-align: center;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+            p {
+                font-weight: 600;
+                z-index: 100;
+            }
+        }
+    }
+
+    &_option_slider{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 3px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+    }
+
+    #starter:checked ~ &_option_slider{
+    background: rgba(255,255,255,.7);
+    left: 3px;
+    }
+    #pro:checked ~ &_option_slider{
+    background: rgba(255,255,255,.7);
+    left: 109px;
+    }
+    #enterprise:checked ~ &_option_slider{
+    background: rgba(255,255,255,.7);
+    left: 215px;
+    }
+}

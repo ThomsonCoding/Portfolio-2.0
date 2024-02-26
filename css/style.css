@@ -218,6 +218,67 @@ h2 {
     background-color: rgba(238, 238, 238, 0.7);
     transition: 0.5s; }
 
+.toggle_wrapper {
+  margin: 4rem auto;
+  width: 100%; }
+
+.toggle_radio {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 4px auto;
+  overflow: hidden;
+  padding: 0 !important;
+  border-radius: 50px;
+  height: 36px;
+  width: 318px; }
+  .toggle_radio > * {
+    float: left; }
+  .toggle_radio input[type=radio] {
+    display: none; }
+  .toggle_radio label {
+    color: #000;
+    z-index: 0;
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 3px 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .toggle_radio label p {
+      font-weight: 600;
+      z-index: 100; }
+
+.toggle_option_slider {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 3px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease; }
+
+#starter:checked ~ .toggle_option_slider {
+  background: rgba(255, 255, 255, 0.7);
+  left: 3px; }
+
+#pro:checked ~ .toggle_option_slider {
+  background: rgba(255, 255, 255, 0.7);
+  left: 109px; }
+
+#enterprise:checked ~ .toggle_option_slider {
+  background: rgba(255, 255, 255, 0.7);
+  left: 215px; }
+
 .carousel {
   display: flex;
   width: 100%;
@@ -848,25 +909,6 @@ h2 {
       font-size: 4.5rem;
       max-width: 800px;
       margin: 14rem auto 2rem auto; } }
-
-.our-process__toggle {
-  display: flex;
-  justify-content: space-between;
-  margin: 3rem auto;
-  padding: 0.2rem 0rem;
-  width: fit-content;
-  max-width: 20rem;
-  background-color: rgba(198, 197, 197, 0.637);
-  border-radius: 1.2rem; }
-  .our-process__toggle button {
-    padding: .6rem 1rem;
-    border: none;
-    background-color: transparent;
-    color: #000; }
-    .our-process__toggle button:first-child {
-      margin: 0 0 0 0.2rem; }
-    .our-process__toggle button:last-child {
-      margin: 0 0.2rem 0 0; }
 
 .our-process__icons-container {
   display: grid;

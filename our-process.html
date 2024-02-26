@@ -67,10 +67,22 @@
         <section class="our-process__section enterprise">
             <h2>How we approach your problem solving...</h2>
             
-            <div class="our-process__toggle">
+            <!-- <div class="our-process__toggle">
                 <button id="starter">Starter</button>
                 <button id="pro">Pro</button>
                 <button id="enterprise">Enterprise</button>
+            </div> -->
+
+            <div class="toggle_wrapper">
+                <div class="toggle_radio">
+                    <input type="radio" class="toggle_option" id="starter" name="toggle_option">
+                    <input type="radio" class="toggle_option" id="pro" name="toggle_option">
+                    <input type="radio" checked class="toggle_option" id="enterprise" name="toggle_option">
+                    <label for="starter"><p>Starter</p></label>
+                    <label for="pro"><p>Pro</p></label>
+                    <label for="enterprise"><p>Enterprise</p></label>
+                    <div class="toggle_option_slider"></div>
+                </div>
             </div>
             
             <div class="our-process__icons-container">

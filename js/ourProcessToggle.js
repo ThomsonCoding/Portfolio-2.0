@@ -1,5 +1,5 @@
 const ourProcessSection = document.querySelector('.our-process__section');
-const ourProcessToggleButtons = document.querySelectorAll('.our-process__toggle button');
+const ourProcessToggleButtons = document.querySelectorAll('.toggle_radio input');
 
 ourProcessToggleButtons.forEach((button) => {
     button.addEventListener('click',  () => toggleButton(button));

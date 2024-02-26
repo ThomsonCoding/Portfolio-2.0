@@ -23,32 +23,6 @@
             } 
     }
 
-    &__toggle {
-        display: flex;
-        justify-content: space-between;
-        margin: 3rem auto;
-        padding: 0.2rem 0rem;
-        width: fit-content;
-        max-width: 20rem;
-        background-color: $color-grey-light-3;
-        border-radius: 1.2rem;
-        
-        button {
-            padding: .6rem 1rem;
-            border: none;
-            background-color: transparent;
-            color: $color-black;
-
-            &:first-child {
-                margin: 0 0 0 0.2rem;
-            }
-
-            &:last-child {
-                margin: 0 0.2rem 0 0;
-            }
-        }
-    }
-
     &__icons-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
