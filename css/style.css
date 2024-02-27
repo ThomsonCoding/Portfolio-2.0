@@ -426,8 +426,8 @@ h2 {
         display: none; } }
 
 .main__section {
-  height: 80vh;
-  min-height: 80vh;
+  height: 75vh;
+  min-height: 75vh;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -604,60 +604,61 @@ h2 {
     .subsciption__input:focus {
       outline: none; }
 
-.tailoredApproach__content--mobile {
-  display: none; }
-  @media only screen and (max-width: 30em) {
-    .tailoredApproach__content--mobile {
-      display: block;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      /* creates a grid with two columns */
-      grid-auto-rows: minmax(200px, auto);
-      /* sets the height of each row */ }
-      .tailoredApproach__content--mobile img {
-        width: 100%;
-        /* ensures the images fill the grid cells */
-        height: 100%;
-        object-fit: cover;
-        /* maintains the aspect ratio of the images */ } }
-
-.tailoredApproach__content--desktop {
-  display: flex;
-  padding: 0 4rem;
-  max-width: 70rem;
-  margin: 0 auto; }
-  @media only screen and (max-width: 30em) {
-    .tailoredApproach__content--desktop {
-      display: none; } }
-  @media only screen and (min-width: 63.9em) {
-    .tailoredApproach__content--desktop {
-      max-width: 100rem; }
-      .tailoredApproach__content--desktop a {
-        font-size: 1.4rem; } }
-  .tailoredApproach__content--desktop--contentbox {
+.tailoredApproach {
+  padding: 0 !important; }
+  .tailoredApproach__content--mobile {
+    display: none; }
+    @media only screen and (max-width: 30em) {
+      .tailoredApproach__content--mobile {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* creates a grid with two columns */
+        grid-auto-rows: minmax(200px, auto);
+        /* sets the height of each row */ }
+        .tailoredApproach__content--mobile img {
+          width: 100%;
+          /* ensures the images fill the grid cells */
+          height: 100%;
+          object-fit: cover;
+          /* maintains the aspect ratio of the images */ } }
+  .tailoredApproach__content--desktop {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem; }
-  .tailoredApproach__content--desktop h3 {
-    padding: 2rem 1.5rem;
-    font-size: 1rem; }
+    padding: 0 4rem;
+    max-width: 70rem;
+    margin: 0 auto; }
+    @media only screen and (max-width: 30em) {
+      .tailoredApproach__content--desktop {
+        display: none; } }
     @media only screen and (min-width: 63.9em) {
-      .tailoredApproach__content--desktop h3 {
-        padding: 3rem 2.5rem;
-        font-size: 1.5rem; } }
-  .tailoredApproach__content--desktop img {
-    width: 190px;
-    /* ensures the images fill the grid cells */
-    height: 120px;
-    object-fit: cover;
-    /* maintains the aspect ratio of the images */ }
-    @media only screen and (min-width: 63.9em) {
-      .tailoredApproach__content--desktop img {
-        width: 240px;
-        /* ensures the images fill the grid cells */
-        height: 160px; } }
+      .tailoredApproach__content--desktop {
+        max-width: 100rem; }
+        .tailoredApproach__content--desktop a {
+          font-size: 1.4rem; } }
+    .tailoredApproach__content--desktop--contentbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem; }
+    .tailoredApproach__content--desktop h3 {
+      padding: 2rem 1.5rem;
+      font-size: 1rem; }
+      @media only screen and (min-width: 63.9em) {
+        .tailoredApproach__content--desktop h3 {
+          padding: 3rem 2.5rem;
+          font-size: 1.5rem; } }
+    .tailoredApproach__content--desktop img {
+      width: 190px;
+      /* ensures the images fill the grid cells */
+      height: 120px;
+      object-fit: cover;
+      /* maintains the aspect ratio of the images */ }
+      @media only screen and (min-width: 63.9em) {
+        .tailoredApproach__content--desktop img {
+          width: 240px;
+          /* ensures the images fill the grid cells */
+          height: 160px; } }
 
 .grid-container {
   display: grid;
