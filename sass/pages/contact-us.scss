@@ -1,18 +1,12 @@
 .contact-us {
+    // &__header {
 
-
-    @include respond(only-tablet) { 
-        &__header {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            background: radial-gradient(circle at left, $color-primary 60%, transparent 40%); // Replace with the desired color
-        }
-    }
+    // }
 
     &__section {
         display: flex;
         flex-direction: column;
+        background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp");
 
         @include respond(above-mobile) { 
             display: flex;

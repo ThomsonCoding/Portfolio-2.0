@@ -764,16 +764,10 @@ h2 {
 .website__packages .btn {
   width: 22rem; }
 
-@media only screen and (min-width: 31em) and (max-width: 63.9em) {
-  .contact-us__header {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    background: radial-gradient(circle at left, #005b96 60%, transparent 40%); } }
-
 .contact-us__section {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp"); }
   @media (min-width: 31em) {
     .contact-us__section {
       display: flex;
