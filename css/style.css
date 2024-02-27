@@ -439,7 +439,9 @@ h2 {
   background-position: center center; }
   @media (min-width: 31em) {
     .main__section {
-      max-width: 90vw; } }
+      max-width: 90vw;
+      height: 85vh;
+      min-height: 85vh; } }
   .main__section h2 {
     font-size: 2.5rem;
     padding: 1rem 4rem;
