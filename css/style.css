@@ -909,7 +909,8 @@ h2 {
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  max-width: 75rem; }
   .our-process__icons-container .grid-item {
     display: grid;
     height: 8rem;
