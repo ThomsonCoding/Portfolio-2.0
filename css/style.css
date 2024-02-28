@@ -235,10 +235,10 @@ h2 {
         content: "";
         background: white;
         width: 4px;
-        height: 1.5rem;
+        height: 2rem;
         position: absolute;
-        top: 1.8rem;
-        right: -1px;
+        top: 3.3rem;
+        right: -2px;
         transform: rotate(135deg); }
       .searchContainer .search > div > input {
         color: white;
@@ -246,7 +246,7 @@ h2 {
         background: transparent;
         width: 25px;
         height: 25px;
-        padding: 10px;
+        padding: 2rem;
         border: solid 3px white;
         outline: none;
         border-radius: 35px;
@@ -258,7 +258,7 @@ h2 {
         .searchContainer .search > div > input:focus::placeholder {
           opacity: 1; }
         .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
-          width: 250px; }
+          width: 300px; }
 
 .overlay {
   display: none; }
