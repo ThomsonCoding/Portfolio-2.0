@@ -44,6 +44,11 @@
             img {
                 height: 4rem;
                 width: auto;
+                margin: 1rem;
+
+                &:hover {
+                    height: 5rem;
+                }
             }
         }
     }

@@ -920,7 +920,10 @@ h2 {
     margin-bottom: 1rem; }
     .our-process__icons-container .grid-item img {
       height: 4rem;
-      width: auto; }
+      width: auto;
+      margin: 1rem; }
+      .our-process__icons-container .grid-item img:hover {
+        height: 5rem; }
 
 .our-process__processes-container {
   display: flex;
