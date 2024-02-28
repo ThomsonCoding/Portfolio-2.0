@@ -228,7 +228,8 @@ h2 {
     .searchContainer .search h4, .searchContainer .search p {
       color: white;
       margin-bottom: 2rem;
-      text-shadow: 0 1px #0091c2; }
+      text-shadow: 0 1px #0091c2;
+      font-weight: 600; }
     .searchContainer .search > div {
       display: inline-block;
       position: relative;
