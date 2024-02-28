@@ -287,12 +287,16 @@ h2 {
     display: flex;
     align-items: center; }
   .searchContainerHelper .contactIcon {
-    height: 13rem;
+    height: 100%;
     width: auto;
     background-color: white;
     padding: 3rem;
     border-radius: 50%;
     overflow: visible; }
+    .searchContainerHelper .contactIcon img {
+      height: 8rem;
+      width: auto;
+      z-index: 3; }
   .searchContainerHelper .arrowIcon {
     height: 6rem;
     width: auto;
