@@ -23,6 +23,10 @@
         }
     }
 
+    .danielsImage {
+        object-fit: cover;
+    }
+
     &__section {
         background: linear-gradient(
             to top,
