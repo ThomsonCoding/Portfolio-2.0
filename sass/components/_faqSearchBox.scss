@@ -67,7 +67,6 @@
   
           &:focus, &:not(:placeholder-shown) {
             width: 300px;
-            pointer-events: none;
           }
         }
       }

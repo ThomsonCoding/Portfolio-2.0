@@ -259,8 +259,7 @@ h2 {
         .searchContainer .search > div > input:focus::placeholder {
           opacity: 1; }
         .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
-          width: 300px;
-          pointer-events: none; }
+          width: 300px; }
 
 .overlay {
   display: none; }
