@@ -940,7 +940,8 @@ h2 {
     .faq__section h2 {
       font-size: 4.5rem;
       max-width: 800px;
-      margin: 14rem auto 2rem auto; } }
+      margin: 14rem auto 2rem auto;
+      text-align: center; } }
 
 .faq__section h3 {
   font-weight: 600; }
