@@ -226,10 +226,13 @@ h2 {
     .searchContainer .search p {
       font-size: 2rem; }
     .searchContainer .search h4, .searchContainer .search p {
-      color: white;
+      color: black;
       margin-bottom: 2rem;
       text-shadow: 0 1px #0091c2;
       font-weight: 600; }
+    .searchContainer .search span {
+      color: #fff;
+      font-size: 2.2rem; }
     .searchContainer .search > div {
       display: inline-block;
       position: relative;

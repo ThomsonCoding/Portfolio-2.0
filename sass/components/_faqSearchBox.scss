@@ -23,10 +23,15 @@
       }
 
       h4, p {
-        color: white;
+        color: black;
         margin-bottom: 2rem;
         text-shadow: 0 1px #0091c2;
         font-weight: 600;
+      }
+
+      span {
+        color: $color-white;
+        font-size: 2.2rem;
       }
   
       > div {
