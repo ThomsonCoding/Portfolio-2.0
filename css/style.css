@@ -283,10 +283,10 @@ h2 {
     display: flex;
     align-items: center; }
   .searchContainerHelper .contactIcon {
-    height: 12rem;
+    height: 16rem;
     width: auto;
     background-color: white;
-    padding: 3rem;
+    padding: 3.5rem;
     border-radius: 50%;
     overflow: visible; }
   .searchContainerHelper .arrowIcon {
