@@ -261,7 +261,7 @@ h2 {
         .searchContainer .search > div > input:focus::placeholder {
           opacity: 1; }
         .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
-          width: 300px; }
+          width: 28rem; }
 
 .searchContainerHelper {
   background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
