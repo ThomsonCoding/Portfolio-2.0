@@ -215,7 +215,8 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  margin: 3rem 0; }
+  margin: 3rem 0;
+  min-width: 100%; }
   .searchContainer .search {
     margin: 20px; }
     .searchContainer .search h4 {
@@ -258,7 +259,8 @@ h2 {
         .searchContainer .search > div > input:focus::placeholder {
           opacity: 1; }
         .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
-          width: 300px; }
+          width: 300px;
+          pointer-events: none; }
 
 .overlay {
   display: none; }
