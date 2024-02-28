@@ -762,10 +762,12 @@ h2 {
 .website__packages .btn {
   width: 22rem; }
 
+.contact-us__header {
+  margin: 0 auto; }
+
 .contact-us__section {
   display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp"); }
+  flex-direction: column; }
   @media (min-width: 31em) {
     .contact-us__section {
       display: flex;
@@ -788,9 +790,9 @@ h2 {
     font-weight: 400; }
     @media only screen and (min-width: 63.9em) {
       .contact-us__section h2 {
-        font-size: 4.5rem;
-        max-width: 800px;
-        margin: 14rem auto 2rem auto; } }
+        font-size: 6rem;
+        max-width: 40rem;
+        margin: auto auto; } }
   .contact-us__section h6 {
     font-size: 2rem;
     color: #333;
@@ -802,13 +804,15 @@ h2 {
   .contact-us__section form {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     max-width: 50rem;
     width: 80vw;
-    margin: 0 auto; }
+    margin: auto auto;
+    background-color: #fff; }
     @media (min-width: 31em) {
       .contact-us__section form {
-        max-width: 35rem; } }
+        max-width: 35rem;
+        border: solid 1px black; } }
     .contact-us__section form > input, .contact-us__section form > textarea {
       margin: 1rem 0; }
     .contact-us__section form input {

@@ -1,12 +1,19 @@
 .contact-us {
-    // &__header {
-
-    // }
+    &__header {
+        margin: 0 auto;
+    }
 
     &__section {
         display: flex;
         flex-direction: column;
-        background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp");
+        // background-image: linear-gradient(
+        //     rgba(0, 0, 0, 0.6),
+        //     rgba(0, 0, 0, 0.6)
+        // ), url("../img/contact-us.webp");
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // height: 100%;
+
 
         @include respond(above-mobile) { 
             display: flex;
@@ -31,9 +38,9 @@
             font-weight: 400;
 
             @include respond(desktop) {
-                font-size: 4.5rem;
-                max-width: 800px;
-                margin: 14rem auto 2rem auto;
+                font-size: 6rem;
+                max-width: 40rem;
+                margin: auto auto;
             }
         } 
 
@@ -53,13 +60,15 @@
         form {
             display: flex;
             flex-direction: column;
-            padding: 1rem 1rem;
+            padding: 2rem 2rem;
             max-width: 50rem;
             width: 80vw;
-            margin: 0 auto;
+            margin: auto auto;
+            background-color: $color-white;
 
             @include respond(above-mobile) { 
                 max-width: 35rem;
+                border: solid 1px black;
             }
 
             & > input, & > textarea {
