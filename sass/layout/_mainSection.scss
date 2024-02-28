@@ -9,12 +9,12 @@
     flex-direction: column;
     text-align: center;
     background-image: linear-gradient(
-        to bottom, transparent, #ffffff
+        to top, transparent, #ffffff
     ), url("../img/mainBackground.webp");
     background-position: center center;
 
     @include respond(above-mobile) {
-        max-width: 90vw;
+        max-width: 1350px;
         height: 85vh;
         min-height: 85vh;
     }

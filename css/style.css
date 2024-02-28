@@ -430,11 +430,11 @@ h2 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(to bottom, transparent, #ffffff), url("../img/mainBackground.webp");
+  background-image: linear-gradient(to top, transparent, #ffffff), url("../img/mainBackground.webp");
   background-position: center center; }
   @media (min-width: 31em) {
     .main__section {
-      max-width: 90vw;
+      max-width: 1350px;
       height: 85vh;
       min-height: 85vh; } }
   .main__section h2 {
