@@ -261,6 +261,37 @@ h2 {
         .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
           width: 300px; }
 
+.searchContainerHelper {
+  background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 3rem 0;
+  min-width: 100%;
+  flex-direction: column; }
+  .searchContainerHelper h5 {
+    font-size: 3rem; }
+  .searchContainerHelper h6 {
+    font-size: 2rem;
+    margin: 1.5rem 0; }
+  .searchContainerHelper a {
+    display: flex;
+    align-items: center; }
+  .searchContainerHelper .contactIcon {
+    height: 12rem;
+    width: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+    overflow: visible; }
+  .searchContainerHelper .arrowIcon {
+    height: 6rem;
+    width: auto;
+    margin: 0 auto; }
+
 .overlay {
   display: none; }
   .overlay--active {
