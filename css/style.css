@@ -207,6 +207,59 @@ h2 {
   .btn--consultation {
     margin: 0 1rem; }
 
+.searchContainer {
+  background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 3rem 0; }
+  .searchContainer .search {
+    margin: 20px; }
+    .searchContainer .search h4 {
+      font-weight: normal;
+      font-size: 4rem; }
+    .searchContainer .search p {
+      font-size: 1.5rem; }
+    .searchContainer .search h4, .searchContainer .search p {
+      color: white;
+      margin-bottom: 2rem;
+      text-shadow: 0 1px #0091c2; }
+    .searchContainer .search > div {
+      display: inline-block;
+      position: relative;
+      filter: drop-shadow(0 1px #0091c2); }
+      .searchContainer .search > div:after {
+        content: "";
+        background: white;
+        width: 4px;
+        height: 1.5rem;
+        position: absolute;
+        top: 1.8rem;
+        right: -1px;
+        transform: rotate(135deg); }
+      .searchContainer .search > div > input {
+        color: white;
+        font-size: 16px;
+        background: transparent;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        border: solid 3px white;
+        outline: none;
+        border-radius: 35px;
+        transition: width 0.5s; }
+        .searchContainer .search > div > input::placeholder {
+          color: #efefef;
+          opacity: 0;
+          transition: opacity 150ms ease-out; }
+        .searchContainer .search > div > input:focus::placeholder {
+          opacity: 1; }
+        .searchContainer .search > div > input:focus, .searchContainer .search > div > input:not(:placeholder-shown) {
+          width: 250px; }
+
 .overlay {
   display: none; }
   .overlay--active {
@@ -843,12 +896,16 @@ h2 {
   color: black;
   line-height: 1.2;
   max-width: 600px;
-  margin: 5rem auto 1rem auto; }
+  margin: 5rem auto 1rem auto;
+  font-weight: 900; }
   @media only screen and (min-width: 63.9em) {
     .faq__section h2 {
       font-size: 4.5rem;
       max-width: 800px;
       margin: 14rem auto 2rem auto; } }
+
+.faq__section h3 {
+  font-weight: 600; }
 
 .our-blog h2 {
   font-size: 4.5rem;
