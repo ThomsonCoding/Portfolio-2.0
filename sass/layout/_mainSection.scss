@@ -28,7 +28,7 @@
         text-align: left;
 
         @include respond(big-phone) {
-            font-size: 4.75rem;
+            font-size: 4.4rem;
         }
 
         @include respond(tablet) {
