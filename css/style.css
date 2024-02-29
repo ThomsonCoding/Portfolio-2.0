@@ -537,9 +537,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-  background-image: linear-gradient(to top, transparent, #ffffff), url("../img/mainBackground.webp");
-  background-position: center center; }
+  text-align: center; }
   @media (min-width: 31em) {
     .main__section {
       max-width: 1350px;
