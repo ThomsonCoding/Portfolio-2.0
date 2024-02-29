@@ -1117,7 +1117,11 @@ h2 {
           border-bottom: 1.2rem solid #30c8c9; } }
     @media (min-width: 31em) {
       .our-work__section h2 {
-        margin-top: 10rem;
+        margin: 8rem 8rem 8rem 8rem;
+        font-size: 6rem; } }
+    @media only screen and (min-width: 63.9em) {
+      .our-work__section h2 {
+        margin: 10rem auto 0 auto;
         font-size: 6rem; } }
   .our-work__section h5 {
     font-size: 2rem;

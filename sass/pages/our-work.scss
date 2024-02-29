@@ -25,7 +25,12 @@
             }
 
             @include respond(above-mobile) {
-                margin-top: 10rem;
+                margin: 8rem 8rem 8rem 8rem;
+                font-size: 6rem;
+            }
+
+            @include respond(desktop) {
+                margin: 10rem auto 0 auto;
                 font-size: 6rem;
             }
         } 
