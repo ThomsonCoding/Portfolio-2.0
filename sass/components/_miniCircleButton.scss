@@ -5,13 +5,13 @@
     border-radius: 25px;
 
     &--secondary-dark {
-        background-color: $color-secondary-dark;
+        background-color: $color-tertiary-light;
         color: $color-white;
         border: none;
 
         &:hover {
-            background-color:$color-tertiary-dark;
-            color: $color-secondary-light;
+            background-color: $color-secondary-light;
+            color: $color-white;
         }
     }
 }

@@ -307,6 +307,13 @@ h2 {
   width: 50px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px; }
+  .miniBtn--secondary-dark {
+    background-color: #30c8c9;
+    color: #fff;
+    border: none; }
+    .miniBtn--secondary-dark:hover {
+      background-color: #ffb900;
+      color: #fff; }
 
 .overlay {
   display: none; }
@@ -1095,7 +1102,7 @@ h2 {
     margin: 8rem auto 2rem auto;
     text-align: left;
     color: #777;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 5rem;
     line-height: 100%;
     text-align: left;
@@ -1104,10 +1111,10 @@ h2 {
     .our-work__section h2 span {
       color: #000;
       font-weight: 500;
-      border-bottom: 5px solid #ff7730; }
+      border-bottom: 5px solid #30c8c9; }
       @media (min-width: 31em) {
         .our-work__section h2 span {
-          border-bottom: 1.2rem solid #ff7730; } }
+          border-bottom: 1.2rem solid #30c8c9; } }
     @media (min-width: 31em) {
       .our-work__section h2 {
         margin-top: 10rem;
@@ -1123,25 +1130,31 @@ h2 {
     font-weight: 300; }
   .our-work__section p {
     color: #333;
+    font-size: 1.4rem;
     line-height: 2rem;
-    margin: 2rem 2rem 4rem 0; }
+    margin: 2rem 0; }
   @media (min-width: 31em) {
     .our-work__section .grid-container {
       gap: 0 3rem; } }
   .our-work__section .grid-item {
     background-color: #f7f7f7;
-    padding: 2rem; }
+    padding: 1rem;
+    height: auto;
+    max-height: fit-content; }
     @media (min-width: 31em) {
       .our-work__section .grid-item:nth-child(odd) {
-        margin-top: 4rem;
-        margin-bottom: 1rem; }
+        margin-top: 4rem; }
       .our-work__section .grid-item:nth-child(even) {
         margin-bottom: 4rem; } }
+
+.our-work__item--text {
+  padding: 0 2rem; }
 
 .our-work__buttonContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  font-size: 2rem; }
 
 @media only screen and (min-width: 63.9em) {
   .who-we-are .navigation {

@@ -7,7 +7,7 @@
             margin: 8rem auto 2rem auto;
             text-align: left;
             color: $color-grey-dark;
-            font-weight: 300;
+            font-weight: 100;
             font-size: 5rem;
             line-height: 100%;
             text-align: left;
@@ -17,10 +17,10 @@
             span {
                 color: $color-black;
                 font-weight: 500;
-                border-bottom: 5px solid $color-secondary-dark;
+                border-bottom: 5px solid $color-tertiary-light;
     
                 @include respond(above-mobile) {
-                    border-bottom: 1.2rem solid $color-secondary-dark;
+                    border-bottom: 1.2rem solid $color-tertiary-light;
                 }
             }
 
@@ -45,8 +45,9 @@
 
         p {
             color: $color-grey-dark-3;
+            font-size: 1.4rem;
             line-height: 2rem;
-            margin: 2rem 2rem 4rem 0;
+            margin: 2rem 0;
         }
 
         .grid-container {
@@ -57,12 +58,13 @@
 
         .grid-item {
             background-color: $color-grey-light-1;
-            padding: 2rem;
+            padding: 1rem;
+            height: auto;
+            max-height: fit-content;
 
             @include respond(above-mobile) {
                 &:nth-child(odd) {
                     margin-top: 4rem;
-                    margin-bottom: 1rem;
                 }
 
                 &:nth-child(even) {
@@ -72,9 +74,16 @@
         }
     }
 
+    &__item {
+        &--text {
+            padding: 0 2rem;
+        }
+    }
+
     &__buttonContainer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-size: 2rem;
     }
 }
