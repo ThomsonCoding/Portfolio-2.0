@@ -1220,13 +1220,13 @@ h2 {
       padding: 7rem 0 0 0; } }
   .who-we-are__section h2 {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-top: 5rem; }
     .who-we-are__section h2 span {
       color: #ffb900; }
-    @media only screen and (min-width: 63.9em) {
+    @media only screen and (min-width: 36.5em) {
       .who-we-are__section h2 {
-        font-size: 3.5rem; } }
+        font-size: 6rem; } }
   .who-we-are__section h3 {
     font-size: 1.8rem;
     margin: 1rem 0 0 0; }
