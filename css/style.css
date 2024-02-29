@@ -163,7 +163,7 @@ h2 {
   max-height: 6rem;
   padding: 1.5rem 2rem;
   margin: 1rem 0 .3rem 0;
-  border-radius: 1.5rem;
+  border-radius: 2.5rem;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
@@ -572,7 +572,11 @@ h2 {
         padding: 0;
         margin: 8rem; } }
     .main__section h2 span {
-      color: #30c8c9; }
+      color: #ff7730;
+      border-bottom: 5px solid #30c8c9; }
+      @media (min-width: 31em) {
+        .main__section h2 span {
+          border-bottom: 1.2rem solid #30c8c9; } }
   @media (min-width: 31em) {
     .main__section--cta {
       display: flex;
@@ -580,7 +584,16 @@ h2 {
       .main__section--cta p {
         font-size: 1.4rem; }
       .main__section--cta .btn {
-        min-width: 20rem; }
+        min-width: 20rem;
+        font-weight: 200; }
+        .main__section--cta .btn span {
+          background-color: white;
+          color: black;
+          padding: 1rem;
+          border-radius: 50%;
+          font-size: 2rem;
+          text-align: center;
+          margin-left: 2rem; }
       .main__section--cta .btn--consultation {
         font-size: .9rem; } }
 

@@ -45,7 +45,12 @@
         }
 
         span {
-            color: $color-tertiary-light;
+            color: $color-secondary-dark;
+            border-bottom: 5px solid $color-tertiary-light;
+    
+            @include respond(above-mobile) {
+                border-bottom: 1.2rem solid $color-tertiary-light;
+            }
         }
     }
 
@@ -67,6 +72,17 @@
 
             .btn {
                 min-width: 20rem;
+                font-weight: 200;
+
+                span {
+                    background-color: white;
+                    color: black;
+                    padding: 1rem;
+                    border-radius: 50%;
+                    font-size: 2rem;
+                    text-align: center;
+                    margin-left: 2rem;
+                }
             }
 
             .btn--consultation {
