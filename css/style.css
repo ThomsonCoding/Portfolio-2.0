@@ -205,6 +205,13 @@ h2 {
     .btn--secondary-dark:hover {
       color: #fff;
       background-color: #30c8c9; }
+  .btn--tertiary-light {
+    background-color: #30c8c9;
+    color: #fff;
+    border: none; }
+    .btn--tertiary-light:hover {
+      color: #fff;
+      background-color: #ff7730; }
   .btn--clear {
     background-color: transparent;
     border: none;
