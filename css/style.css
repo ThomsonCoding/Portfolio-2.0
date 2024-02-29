@@ -546,13 +546,18 @@ h2 {
       height: 85vh;
       min-height: 85vh; } }
   .main__section h2 {
-    font-size: 2.5rem;
-    padding: 1rem 4rem;
-    margin: 2rem 0; }
-    @media (min-width: 31em) {
+    font-size: 4rem;
+    padding: 2rem 2.5rem;
+    margin: 8rem 0;
+    font-family: system-ui;
+    font-weight: 300;
+    text-align: left; }
+    @media only screen and (min-width: 63.9em) {
       .main__section h2 {
-        font-size: 4rem;
-        max-width: 80rem; } }
+        font-size: 9rem;
+        max-width: 105rem;
+        padding: 0;
+        margin: 0; } }
     .main__section h2 span {
       color: #ff7730; }
   @media (min-width: 31em) {

@@ -20,13 +20,18 @@
     }
 
     h2 {
-        font-size: 2.5rem;
-        padding: 1rem 4rem;
-        margin: 2rem 0;
+        font-size: 4rem;
+        padding: 2rem 2.5rem;
+        margin: 8rem 0;
+        font-family: system-ui;
+        font-weight: 300;
+        text-align: left;
 
-        @include respond(above-mobile) {
-            font-size: 4rem;
-            max-width: 80rem;
+        @include respond(desktop) {
+            font-size: 9rem;
+            max-width: 105rem;
+            padding: 0;
+            margin: 0;
         }
 
         span {
