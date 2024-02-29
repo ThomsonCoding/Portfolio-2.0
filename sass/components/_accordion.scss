@@ -67,7 +67,7 @@
     overflow: hidden;
     position: relative;
     background-color: #fff;
-    transition: max-height 650ms;
+    transition: max-height 950ms;
   
     p {
       color: #000;
@@ -78,7 +78,8 @@
   
   .accordion-item:focus {
     .answer {
-      max-height: 20rem;
+      max-height: 45rem;
+      height: fit-content;
     }
   
     .accordion-link {

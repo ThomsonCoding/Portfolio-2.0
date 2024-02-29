@@ -31,9 +31,9 @@
             white 50%,
             $color-tertiary-light 50%,
             $color-primary 100%
-          );
+        );
 
-          @include respond(desktop) {
+        @include respond(desktop) {
             padding: 7rem 0 0 0;
         }
 
