@@ -27,11 +27,21 @@
         font-weight: 300;
         text-align: left;
 
+        @include respond(big-phone) {
+            font-size: 4.75rem;
+        }
+
+        @include respond(tablet) {
+            margin: 4rem 0;
+            font-size: 8rem;
+            padding: 0rem 4rem;
+        }
+
         @include respond(desktop) {
             font-size: 9rem;
             max-width: 105rem;
             padding: 0;
-            margin: 0;
+            margin: 8rem;
         }
 
         span {
