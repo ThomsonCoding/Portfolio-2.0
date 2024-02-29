@@ -1227,7 +1227,8 @@ h2 {
       .who-we-are__section h2 {
         font-size: 3.5rem; } }
   .who-we-are__section h3 {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin: 1rem 0 0 0; }
   .who-we-are__section h5 {
     color: #005b96;
     font-weight: 600;
