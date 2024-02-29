@@ -159,11 +159,11 @@ h2 {
 
 .btn {
   width: 100%;
-  max-width: 25rem;
+  max-width: 30rem;
   max-height: 6rem;
   padding: 1.5rem 2rem;
   margin: 1rem 0 .3rem 0;
-  border-radius: .5rem;
+  border-radius: 1.5rem;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
@@ -198,6 +198,13 @@ h2 {
     .btn--secondary-light:hover {
       color: #fff;
       background-color: #005b96; }
+  .btn--secondary-dark {
+    background-color: #ff7730;
+    color: #fff;
+    border: none; }
+    .btn--secondary-dark:hover {
+      color: #fff;
+      background-color: #30c8c9; }
   .btn--clear {
     background-color: transparent;
     border: none;
@@ -546,7 +553,7 @@ h2 {
   .main__section h2 {
     font-size: 4rem;
     padding: 2rem 2.5rem;
-    margin: 8rem 0;
+    margin: 8rem 0 4rem 0;
     font-family: system-ui;
     font-weight: 300;
     text-align: left; }
@@ -565,15 +572,11 @@ h2 {
         padding: 0;
         margin: 8rem; } }
     .main__section h2 span {
-      color: #ff7730; }
+      color: #30c8c9; }
   @media (min-width: 31em) {
     .main__section--cta {
       display: flex;
-      grid-gap: 1rem;
-      min-width: 30rem;
-      align-items: flex-start; }
-      .main__section--cta > div, .main__section--cta > button {
-        max-width: 50%; }
+      width: 80%; }
       .main__section--cta p {
         font-size: 1.4rem; }
       .main__section--cta .btn {

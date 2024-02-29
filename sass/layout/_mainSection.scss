@@ -22,7 +22,7 @@
     h2 {
         font-size: 4rem;
         padding: 2rem 2.5rem;
-        margin: 8rem 0;
+        margin: 8rem 0 4rem 0;
         font-family: system-ui;
         font-weight: 300;
         text-align: left;
@@ -45,20 +45,21 @@
         }
 
         span {
-            color: $color-secondary-dark;
+            color: $color-tertiary-light;
         }
     }
 
     &--cta {
         @include respond(above-mobile) {
             display: flex;
-            grid-gap: 1rem;
-            min-width: 30rem;
-            align-items: flex-start;
+            // grid-gap: 1rem;
+            // min-width: 30rem;
+            // align-items: flex-start;
+            width: 80%;
 
-            & > div, & > button {
-                max-width: 50%;
-            }
+            // & > div, & > button {
+            //     max-width: 50%;
+            // }
 
             p {
                 font-size: 1.4rem;
