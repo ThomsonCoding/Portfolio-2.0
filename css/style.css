@@ -217,6 +217,14 @@ h2 {
       color: #ffb900; }
   .btn--consultation {
     margin: 0 1rem; }
+  .btn .spanWhite {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2rem; }
 
 .searchContainer {
   background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
@@ -581,14 +589,6 @@ h2 {
       @media (min-width: 31em) {
         .main__section h2 span {
           border-bottom: 1.2rem solid #30c8c9; } }
-  .main__section--cta .btn span {
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-left: 2rem; }
   @media (min-width: 31em) {
     .main__section--cta {
       display: flex;
@@ -842,7 +842,7 @@ h2 {
 .website__packages .recommendPil {
   position: relative;
   /* Keep position as relative */
-  background-color: #30c8c9;
+  background-color: #ff7730;
   border: none;
   color: #f7f7f7;
   padding: 5px 10px;
