@@ -17,14 +17,11 @@
         max-width: 95%;
         padding: 0.5rem 0rem;
         border-radius: 2.5rem;
+        object-fit: cover;
 
         @include respond(desktop) {
             max-height: 30rem;
         }
-    }
-
-    .danielsImage {
-        object-fit: cover;
     }
 
     &__section {

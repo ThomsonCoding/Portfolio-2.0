@@ -1209,13 +1209,11 @@ h2 {
   width: 95%;
   max-width: 95%;
   padding: 0.5rem 0rem;
-  border-radius: 2.5rem; }
+  border-radius: 2.5rem;
+  object-fit: cover; }
   @media only screen and (min-width: 63.9em) {
     .who-we-are--personImage {
       max-height: 30rem; } }
-
-.who-we-are .danielsImage {
-  object-fit: cover; }
 
 .who-we-are__section {
   background: linear-gradient(to top, white 0%, white 50%, #30c8c9 50%, #005b96 100%); }
