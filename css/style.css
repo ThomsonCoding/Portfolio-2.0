@@ -71,10 +71,7 @@ h2 {
   text-align: center;
   margin: 1.5rem;
   padding: 0 2rem;
-  font-size: clamp(2rem, 2rem, 3rem); }
-  @media only screen and (min-width: 63.9em) {
-    h2 {
-      font-size: 2.5rem; } }
+  font-size: 2.5rem; }
 
 .no-scroll {
   overflow: hidden; }
@@ -440,7 +437,7 @@ h2 {
       margin: 1rem;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       border-radius: 1rem;
-      background-color: seashell; }
+      background-color: whitesmoke; }
       @media only screen and (min-width: 63.9em) {
         .website__examples .carousel--item:nth-child(1), .website__examples .carousel--item:nth-child(3) {
           margin: 1.5rem; } }
@@ -845,7 +842,7 @@ h2 {
 .website__packages .recommendPil {
   position: relative;
   /* Keep position as relative */
-  background-color: #ff7730;
+  background-color: #30c8c9;
   border: none;
   color: #f7f7f7;
   padding: 5px 10px;
