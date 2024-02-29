@@ -582,7 +582,7 @@ h2 {
     color: black;
     padding: 1rem;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-left: 2rem; }
   @media (min-width: 31em) {
@@ -594,6 +594,8 @@ h2 {
       .main__section--cta .btn {
         min-width: 20rem;
         font-weight: 200; }
+        .main__section--cta .btn span {
+          font-size: 2rem; }
       .main__section--cta .btn--consultation {
         font-size: .9rem; } }
 
