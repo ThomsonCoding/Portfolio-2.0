@@ -876,6 +876,15 @@ h2 {
           width: 240px;
           /* ensures the images fill the grid cells */
           height: 160px; } }
+  .tailoredApproach__summary {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 0 4rem;
+    color: #333; }
+    @media (min-width: 31em) {
+      .tailoredApproach__summary {
+        display: none; } }
 
 .grid-container {
   display: grid;

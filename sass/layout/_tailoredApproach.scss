@@ -64,4 +64,15 @@
         }
     }
 
+    &__summary {
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: italic;
+        padding: 0 4rem;
+        color: $color-grey-dark-3;
+
+        @include respond(above-mobile) {
+            display: none;
+        }
+    }
 }
