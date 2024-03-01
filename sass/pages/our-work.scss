@@ -64,7 +64,7 @@
         .grid-item {
             background-color: $color-grey-light-1;
             padding: 1rem;
-            height: auto;
+            height: fit-content;
             max-height: fit-content;
 
             @include respond(above-mobile) {

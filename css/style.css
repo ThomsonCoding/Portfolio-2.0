@@ -1288,7 +1288,7 @@ h2 {
   .our-work__section .grid-item {
     background-color: #f7f7f7;
     padding: 1rem;
-    height: auto;
+    height: fit-content;
     max-height: fit-content; }
     @media (min-width: 31em) {
       .our-work__section .grid-item:nth-child(odd) {
