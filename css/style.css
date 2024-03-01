@@ -992,13 +992,16 @@ h2 {
 .website__packages .btn {
   width: 22rem; }
 
+@media only screen and (min-width: 63.9em) {
+  .contact-us {
+    background-color: turquoise; } }
+
 .contact-us__header {
   margin: 0 auto; }
 
 .contact-us__section {
   display: flex;
-  flex-direction: column;
-  background-color: turquoise; }
+  flex-direction: column; }
   @media (min-width: 31em) {
     .contact-us__section {
       display: flex;

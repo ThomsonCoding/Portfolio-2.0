@@ -1,4 +1,8 @@
 .contact-us {
+    @include respond(desktop) {
+        background-color: turquoise;
+    }
+
     &__header {
         margin: 0 auto;
     }
@@ -6,7 +10,7 @@
     &__section {
         display: flex;
         flex-direction: column;
-        background-color: turquoise;
+        // background-color: turquoise;
         // background-image: linear-gradient(
         //     rgba(0, 0, 0, 0.6),
         //     rgba(0, 0, 0, 0.6)
