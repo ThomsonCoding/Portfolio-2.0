@@ -1104,6 +1104,10 @@ h2 {
 .faq__section h3 {
   font-weight: 600; }
 
+@media only screen and (min-width: 63.9em) {
+  .our-blog {
+    background-color: turquoise; } }
+
 .our-blog h2 {
   font-size: 4.5rem;
   text-align: left;

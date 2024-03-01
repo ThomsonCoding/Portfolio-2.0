@@ -1,4 +1,8 @@
 .our-blog {
+    @include respond(desktop) {
+        background-color: turquoise;
+    }
+    
     h2 { 
         font-size: 4.5rem;
         text-align: left;
