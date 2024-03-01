@@ -469,6 +469,7 @@ h2 {
       justify-content: center; } }
   .website__examples .carousel--item {
     width: fit-content;
+    min-width: 30rem;
     max-width: 30rem;
     display: flex;
     flex-direction: column;

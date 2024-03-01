@@ -73,6 +73,7 @@
         
         &--item {
             width: fit-content;
+            min-width: 30rem;
             max-width: 30rem;
             display: flex;
             flex-direction: column;
