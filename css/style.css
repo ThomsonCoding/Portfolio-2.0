@@ -415,52 +415,52 @@ h2 {
     content: "";
     flex: 0 0 1rem; }
 
-.website__examples {
+.website__reviews {
   margin: 5rem 0; }
-  .website__examples--imageLogo {
+  .website__reviews--imageLogo {
     border-radius: 50%;
     height: 8rem;
     width: 8rem; }
-  .website__examples--usercard {
+  .website__reviews--usercard {
     display: flex;
     margin: 1rem 0 0 0; }
-  .website__examples--userinfo {
+  .website__reviews--userinfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 2rem; }
-  .website__examples--review {
+  .website__reviews--review {
     font-size: 1.2rem; }
-  .website__examples--name {
+  .website__reviews--name {
     font-size: 1.7rem; }
-  .website__examples--business {
+  .website__reviews--business {
     font-size: 1.5rem; }
-  .website__examples--website {
+  .website__reviews--website {
     font-style: italic;
     font-weight: 400;
     color: #777; }
-  .website__examples .carousel {
+  .website__reviews .carousel {
     padding-bottom: 1rem; }
-    .website__examples .carousel--item {
+    .website__reviews .carousel--item {
       padding: 1rem 2rem;
       margin: 1rem;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       border-radius: 1rem;
       background-color: whitesmoke; }
       @media only screen and (min-width: 63.9em) {
-        .website__examples .carousel--item:nth-child(1), .website__examples .carousel--item:nth-child(3) {
+        .website__reviews .carousel--item:nth-child(1), .website__reviews .carousel--item:nth-child(3) {
           margin: 1.5rem; } }
-  .website__examples--cta {
+  .website__reviews--cta {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center; }
     @media (min-width: 31em) {
-      .website__examples--cta {
+      .website__reviews--cta {
         flex-direction: row;
         align-items: flex-start;
         justify-content: center; }
-        .website__examples--cta > div, .website__examples--cta > button {
+        .website__reviews--cta > div, .website__reviews--cta > button {
           max-width: 20rem; } }
 
 .footer {
