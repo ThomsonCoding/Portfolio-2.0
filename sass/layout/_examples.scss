@@ -16,16 +16,16 @@
 
     &--cta {
         display: flex;
-        width: 100%;
-        max-width: 110rem;
+        width: 90rem;
+        max-width: 100%;
         justify-content: center;
-        margin: 3rem;
+        margin: 3rem auto;
 
         button {
-            max-width: 30rem;
+            max-width: 15rem;
         }
 
-        @include respond(desktop) {
+        @include respond(tablet) {
             justify-content: flex-end;
 
             button {

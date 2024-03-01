@@ -427,13 +427,13 @@ h2 {
 
 .website__examples--cta {
   display: flex;
-  width: 100%;
-  max-width: 110rem;
+  width: 90rem;
+  max-width: 100%;
   justify-content: center;
-  margin: 3rem; }
+  margin: 3rem auto; }
   .website__examples--cta button {
-    max-width: 30rem; }
-  @media only screen and (min-width: 63.9em) {
+    max-width: 15rem; }
+  @media only screen and (min-width: 36.5em) {
     .website__examples--cta {
       justify-content: flex-end; }
       .website__examples--cta button {
