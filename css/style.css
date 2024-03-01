@@ -671,8 +671,8 @@ h2 {
         display: block;
         margin-right: auto; }
         .navigation--logo img {
-          height: 7rem;
-          width: 7rem; } }
+          height: 10rem;
+          width: 10rem; } }
   .navigation--mobilelogo {
     display: flex;
     justify-content: center; }
