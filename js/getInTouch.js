@@ -16,7 +16,7 @@ document.getElementById("contact-us__form").addEventListener("submit", function 
     emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
             btn.innerHTML = 'Message sent!';
-            headerText.innerHTML = 'Message sent! We will be contact soon!';
+            headerText.innerHTML = `Message sent, we will be in touch!`;
         }, (err) => {
             btn.innerHTML = 'Error, please try again';
             alert(JSON.stringify(err));
