@@ -4,7 +4,7 @@ emailjs.init("hmwioTbWkNdQUfGML"); // Replace with your Email.js User ID
 function celebrate() {
     // Configure confetti options as needed
     const confettiConfig = {
-        particleCount: 100,
+        particleCount: 500,
         spread: 70,
         origin: { y: 0.6 }
     };
@@ -12,6 +12,8 @@ function celebrate() {
     // Trigger confetti explosion
     confetti(confettiConfig);
 }
+
+celebrate();
 
 const btn = document.getElementById('getInTouch');
 const headerText = document.querySelector('.contact-us__header h2');
