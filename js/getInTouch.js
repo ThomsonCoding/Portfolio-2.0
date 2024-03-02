@@ -1,4 +1,17 @@
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 emailjs.init("hmwioTbWkNdQUfGML"); // Replace with your Email.js User ID
+
+function celebrate() {
+    // Configure confetti options as needed
+    const confettiConfig = {
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+    };
+
+    // Trigger confetti explosion
+    confetti(confettiConfig);
+}
 
 const btn = document.getElementById('getInTouch');
 const headerText = document.querySelector('.contact-us__header h2');
@@ -15,6 +28,7 @@ document.getElementById("contact-us__form").addEventListener("submit", function 
     
     emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
+            celebrate();
             btn.innerHTML = 'Message sent!';
             headerText.innerHTML = `Message sent, we will be in touch!`;
         }, (err) => {
