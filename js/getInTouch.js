@@ -1,15 +1,13 @@
 import confetti from 'https://cdn.skypack.dev/canvas-confetti';
-emailjs.init("hmwioTbWkNdQUfGML"); // Replace with your Email.js User ID
+emailjs.init("hmwioTbWkNdQUfGML");
 
 function celebrate() {
-    // Configure confetti options as needed
     const confettiConfig = {
         particleCount: 500,
         spread: 70,
         origin: { y: 0.6 }
     };
 
-    // Trigger confetti explosion
     confetti(confettiConfig);
 }
 
