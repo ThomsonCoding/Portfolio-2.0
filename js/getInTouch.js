@@ -11,8 +11,6 @@ function celebrate() {
     confetti(confettiConfig);
 }
 
-celebrate();
-
 const btn = document.getElementById('getInTouch');
 const headerText = document.querySelector('.contact-us__header h2');
 
