@@ -133,7 +133,7 @@
                 }
         
                 .swiper-slide--starter {
-                        background: turquoise;
+                        background: white;
                         /* fallback for old browsers */
                         // background: -webkit-linear-gradient(to bottom,
                         //                 #021b79,
@@ -155,8 +155,8 @@
                         }
 
                         .recommendPil { 
-                                background-color: white;
-                                color: $color-black;
+                                background-color: turquoise;
+                                color: $color-white;
 
                                 .tooltiptext { 
                                         background-color: black;
@@ -164,7 +164,7 @@
                         }
 
                         .icon--container {
-                                border: 3px solid gray;
+                                border: 3px solid turquoise;
                         }
                 }
         
