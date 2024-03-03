@@ -1415,7 +1415,7 @@ h2 {
 
 .our-process__section {
   font-family: "Poppins", sans-serif;
-  margin: 8rem 0 4rem 0;
+  margin: 6rem 0 4rem 0;
 }
 .our-process__section h2 {
   letter-spacing: 0.8px;
@@ -1425,11 +1425,14 @@ h2 {
 }
 .our-process__section p {
   font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #777;
   width: 80%;
-  max-width: 680px;
+  max-width: 900px;
   line-height: 1.6;
   margin-inline: auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .our-process__section .swiper-container {
   position: relative;
@@ -1448,7 +1451,7 @@ h2 {
 }
 .our-process__section .swiper-container .swiper {
   width: 100%;
-  padding: 60px 0 95px 0;
+  padding: 1rem 0 7rem 0;
 }
 .our-process__section .swiper-container .swiper-slide {
   width: 10rem;
