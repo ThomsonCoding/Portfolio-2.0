@@ -1440,7 +1440,7 @@ h2 {
   max-width: 900px;
   line-height: 1.6;
   margin-inline: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .our-process__section .swiper-container {
   position: relative;
@@ -1486,9 +1486,9 @@ h2 {
 }
 .our-process__section .swiper-container .swiper-slide .slide-content {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -40%);
   width: 90%;
 }
 .our-process__section .swiper-container .swiper-slide .icon--container {
