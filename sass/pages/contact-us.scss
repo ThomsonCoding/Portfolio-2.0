@@ -12,7 +12,7 @@
     &__section {
         display: flex;
         flex-direction: column;
-        background-color: turquoise;
+        
 
         @include respond(desktop) {
             background-color: white;
