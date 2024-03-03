@@ -1483,6 +1483,12 @@ h2 {
   line-height: 1.4;
   font-size: 1.3rem;
 }
+@media only screen and (min-width: 63.9em) {
+  .our-process__section .swiper-container .swiper-slide p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
 .our-process__section .swiper-container .swiper-slide .slide-content {
   position: absolute;
   top: 20%;
