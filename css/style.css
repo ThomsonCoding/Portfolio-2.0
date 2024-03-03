@@ -1452,7 +1452,7 @@ h2 {
 }
 .our-process__section .swiper-container .swiper-slide {
   width: 10rem;
-  height: 35rem;
+  height: 45rem;
   display: flex;
   flex-direction: column;
   align-items: self-start;
@@ -1471,7 +1471,7 @@ h2 {
 .our-process__section .swiper-container .swiper-slide p {
   color: #fff;
   line-height: 1.6;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .our-process__section .swiper-container .swiper-slide .slide-content {
   position: absolute;
@@ -1482,13 +1482,20 @@ h2 {
 }
 .our-process__section .swiper-container .swiper-slide .icon--container {
   grid-template-columns: 1fr;
+  justify-content: center;
   justify-items: center;
   position: absolute;
-  bottom: -90px;
-  width: 100%;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5rem;
+  height: 5rem;
   display: none;
   opacity: 0;
   padding: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid gray;
 }
 .our-process__section .swiper-container .swiper-slide .icon--container span {
   color: #111;
@@ -1498,10 +1505,9 @@ h2 {
   font-size: 0.9rem;
 }
 .our-process__section .swiper-container .swiper-slide .icon--container img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
-  border-radius: 50%;
   border: 3.5px solid white;
   z-index: 4;
 }
