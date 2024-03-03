@@ -59,7 +59,7 @@
                         box-shadow: -1px 5px 15px #0000001f;
         
                         h3 {
-                                color: #fff;
+                                color: $color-black;
                                 font-size: 2.5rem;
                                 line-height: 1.4;
                                 margin-bottom: 0.625rem;
@@ -68,7 +68,7 @@
                         }
         
                         p {
-                                color: #fff;
+                                color: $color-black;
                                 line-height: 1.6;
                                 font-size: 1rem;
                         }
@@ -96,7 +96,6 @@
                                 padding: 2rem;
                                 border-radius: 50%;
                                 background-color: white;
-                                border: 3px solid gray;
         
                                 span {
                                         color: #111;
@@ -134,46 +133,86 @@
                 }
         
                 .swiper-slide--starter {
-                        background: #0575e6;
+                        background: white;
                         /* fallback for old browsers */
-                        background: -webkit-linear-gradient(to bottom,
-                                        #021b79,
-                                        #0575e6);
-                        /* Chrome 10-25, Safari 5.1-6 */
-                        background: linear-gradient(to bottom,
-                                        #021b79,
-                                        #0575e6);
+                        // background: -webkit-linear-gradient(to bottom,
+                        //                 #021b79,
+                        //                 #0575e6);
+                        // /* Chrome 10-25, Safari 5.1-6 */
+                        // background: linear-gradient(to bottom,
+                        //                 #021b79,
+                        //                 #0575e6);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
                         h3 {
                                 font-family: "Cormorant Garamond", serif;
                                 font-weight: 600;
                         }
+
+                        .icon--container {
+                                border: 3px solid gray;
+                        }
                 }
         
                 .swiper-slide--pro {
-                        background: #23074d;
+                        background: white;
                         /* fallback for old browsers */
-                        background: -webkit-linear-gradient(to bottom,
-                                        #cc5333,
-                                        #23074d);
-                        /* Chrome 10-25, Safari 5.1-6 */
-                        background: linear-gradient(to bottom,
-                                        #cc5333,
-                                        #23074d);
+                        // background: -webkit-linear-gradient(to bottom,
+                        //                 #cc5333,
+                        //                 #23074d);
+                        // /* Chrome 10-25, Safari 5.1-6 */
+                        // background: linear-gradient(to bottom,
+                        //                 #cc5333,
+                        //                 #23074d);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
                         h3 {
                                 font-family: "Quicksand", sans-serif;
                         }
+
+                        .recommendPilHolder { 
+                                top: .2rem;
+                                right: .5rem;
+                        }
+
+                        .recommendPil { 
+                                background-color: $color-secondary-dark;
+                                color: $color-grey-light-1;
+
+                                .tooltiptext { 
+                                        background-color: black;
+                                }
+                        }
+
+                        .icon--container {
+                                border: 3px solid gold;
+                        }
                 }
         
                 .swiper-slide--enterprise {
-                        background: #159957;
+                        background: white;
         
                         h3 {
                                 font-family: "Satisfy", cursive;
                                 font-weight: 300;
+                        }
+
+                        .recommendPilHolder { 
+                                top: .2rem;
+                                right: .5rem;
+                        }
+
+                        .recommendPil { 
+                                background-color: $color-secondary-dark;
+                                color: $color-grey-light-1;
+
+                                .tooltiptext { 
+                                        background-color: black;
+                                }
+                        }
+                        
+                        .icon--container {
+                                border: 3px solid blueviolet;
                         }
                 }
                 

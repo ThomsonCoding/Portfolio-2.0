@@ -495,6 +495,35 @@ h2 {
   left: 215px;
 }
 
+.recommendPilHolder {
+  position: absolute;
+}
+
+.recommendPil {
+  position: relative; /* Keep position as relative */
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.recommendPil .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  color: white;
+  text-align: center;
+  border-radius: 6px 6px 6px 0px;
+  padding: 5px;
+  position: absolute;
+  z-index: 100;
+}
+.recommendPil:hover .tooltiptext {
+  visibility: visible;
+}
+
 .carousel {
   display: flex;
   width: 100%;
@@ -1155,38 +1184,17 @@ h2 {
   }
 }
 .website__packages .recommendPilHolder {
-  position: absolute;
   top: 1rem;
   right: 1rem;
 }
 .website__packages .recommendPil {
-  position: relative; /* Keep position as relative */
   background-color: #ff7730;
-  border: none;
   color: #f7f7f7;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
 }
 .website__packages .recommendPil .tooltiptext {
-  visibility: hidden;
-  width: 160px;
   background-color: black;
-  color: white;
-  text-align: center;
-  border-radius: 6px 6px 6px 0px;
-  padding: 5px;
-  position: absolute;
   top: -2rem;
   left: 5rem;
-  z-index: 100;
-}
-.website__packages .recommendPil:hover .tooltiptext {
-  visibility: visible;
 }
 .website__packages h3 {
   font-size: 2.5rem;
@@ -1464,7 +1472,7 @@ h2 {
   box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.1215686275);
 }
 .our-process__section .swiper-container .swiper-slide h3 {
-  color: #fff;
+  color: #000;
   font-size: 2.5rem;
   line-height: 1.4;
   margin-bottom: 0.625rem;
@@ -1472,7 +1480,7 @@ h2 {
   position: relative;
 }
 .our-process__section .swiper-container .swiper-slide p {
-  color: #fff;
+  color: #000;
   line-height: 1.6;
   font-size: 1rem;
 }
@@ -1498,7 +1506,6 @@ h2 {
   padding: 2rem;
   border-radius: 50%;
   background-color: white;
-  border: 3px solid gray;
 }
 .our-process__section .swiper-container .swiper-slide .icon--container span {
   color: #111;
@@ -1527,34 +1534,59 @@ h2 {
   opacity: 1;
 }
 .our-process__section .swiper-container .swiper-slide--starter {
-  background: #0575e6;
+  background: white;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #021b79, #0575e6);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #021b79, #0575e6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--starter h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
 }
+.our-process__section .swiper-container .swiper-slide--starter .icon--container {
+  border: 3px solid gray;
+}
 .our-process__section .swiper-container .swiper-slide--pro {
-  background: #23074d;
+  background: white;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #cc5333, #23074d);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #cc5333, #23074d);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--pro h3 {
   font-family: "Quicksand", sans-serif;
 }
+.our-process__section .swiper-container .swiper-slide--pro .recommendPilHolder {
+  top: 0.2rem;
+  right: 0.5rem;
+}
+.our-process__section .swiper-container .swiper-slide--pro .recommendPil {
+  background-color: #ff7730;
+  color: #f7f7f7;
+}
+.our-process__section .swiper-container .swiper-slide--pro .recommendPil .tooltiptext {
+  background-color: black;
+}
+.our-process__section .swiper-container .swiper-slide--pro .icon--container {
+  border: 3px solid gold;
+}
 .our-process__section .swiper-container .swiper-slide--enterprise {
-  background: #159957;
+  background: white;
 }
 .our-process__section .swiper-container .swiper-slide--enterprise h3 {
   font-family: "Satisfy", cursive;
   font-weight: 300;
+}
+.our-process__section .swiper-container .swiper-slide--enterprise .recommendPilHolder {
+  top: 0.2rem;
+  right: 0.5rem;
+}
+.our-process__section .swiper-container .swiper-slide--enterprise .recommendPil {
+  background-color: #ff7730;
+  color: #f7f7f7;
+}
+.our-process__section .swiper-container .swiper-slide--enterprise .recommendPil .tooltiptext {
+  background-color: black;
+}
+.our-process__section .swiper-container .swiper-slide--enterprise .icon--container {
+  border: 3px solid blueviolet;
 }
 .our-process__section .swiper-container .swiper-button-prev {
   background: white;
