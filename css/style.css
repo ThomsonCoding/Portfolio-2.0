@@ -1558,7 +1558,7 @@ h2 {
   right: 0.5rem;
 }
 .our-process__section .swiper-container .swiper-slide--pro .recommendPil {
-  background-color: #ff7730;
+  background-color: gold;
   color: #f7f7f7;
 }
 .our-process__section .swiper-container .swiper-slide--pro .recommendPil .tooltiptext {
@@ -1579,7 +1579,7 @@ h2 {
   right: 0.5rem;
 }
 .our-process__section .swiper-container .swiper-slide--enterprise .recommendPil {
-  background-color: #ff7730;
+  background-color: blueviolet;
   color: #f7f7f7;
 }
 .our-process__section .swiper-container .swiper-slide--enterprise .recommendPil .tooltiptext {
