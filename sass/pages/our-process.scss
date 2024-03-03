@@ -1,5 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif+Vithkuqi:wght@500&family=Quicksand:wght@300&family=Satisfy&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
+
 .our-process {
-        &__section { 
-            
+        &__section {
+                font-family: "Poppins", sans-serif;
+                margin: 8rem 0 4rem 0;
+
+                h2 {
+                        letter-spacing: 0.8px;
+                        font-weight: 700;
+                        font-size: 5rem;
+                        line-height: 1.2;
+                }
+
+                p {
+                        font-size: 2rem;
+                        width: 80%;
+                        max-width: 680px;
+                        line-height: 1.6;
+                        margin-inline: auto;
+                        margin-top: 4rem;
+                }
+
+                .swiper-container {
+                position: relative;
+                width: 90%;
+                margin: 0 auto;
+                min-height: fit-content;
+                column-gap: 3rem;
+                padding-block: min(20vh, 3rem);
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .swiper-container {
+                        position: relative;
+                }
+        
+                .swiper {
+                        width: 100%;
+                        padding: 60px 0 95px 0;
+                }
+        
+                .swiper-slide {
+                        width: 10rem;
+                        height: 35rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: self-start;
+                        position: relative;
+                        border-radius: 12px;
+                        box-shadow: -1px 5px 15px #0000001f;
+        
+                        h3 {
+                                color: #fff;
+                                font-size: 2.5rem;
+                                line-height: 1.4;
+                                margin-bottom: 0.625rem;
+                                letter-spacing: 0.8px;
+                                position: relative;
+                        }
+        
+                        p {
+                                color: #fff;
+                                line-height: 1.6;
+                                font-size: 0.8rem;
+                        }
+        
+                        .slide-content {
+                                position: absolute;
+                                top: 45%;
+                                left: 50%;
+                                transform: translate(-50%, -45%);
+                                width: 90%;
+                        }
+        
+                        .icon--container {
+                                grid-template-columns: 1fr;
+                                justify-items: center;
+                                position: absolute;
+                                bottom: -90px;
+                                width: 100%;
+                                display: none;
+                                opacity: 0;
+                                padding: 2rem;
+        
+                                span {
+                                        color: #111;
+                                        display: block;
+                                        margin: 5px 0 10px 0;
+                                        font-weight: 600;
+                                        font-size: 0.9rem;
+                                }
+        
+                                img {
+                                        width: 60px;
+                                        height: 60px;
+                                        object-fit: cover;
+                                        border-radius: 50%;
+                                        border: 3.5px solid white;
+                                        z-index: 4;
+                                }
+        
+                                ul {
+                                        display: flex;
+                                        align-items: center;
+        
+                                        li {
+                                                svg {
+                                                        width: 20px;
+                                                        color: orange;
+                                                }
+                                        }
+                                }
+                        }
+                }
+        
+                .swiper-slide-active .icon--container {
+                        display: grid;
+                        opacity: 1;
+                }
+        
+                .swiper-slide--starter {
+                        background: #0575e6;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to bottom,
+                                        #021b79,
+                                        #0575e6);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to bottom,
+                                        #021b79,
+                                        #0575e6);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+                        h3 {
+                                font-family: "Cormorant Garamond", serif;
+                                font-weight: 600;
+                        }
+                }
+        
+                .swiper-slide--pro {
+                        background: #23074d;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to bottom,
+                                        #cc5333,
+                                        #23074d);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to bottom,
+                                        #cc5333,
+                                        #23074d);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+                        h3 {
+                                font-family: "Quicksand", sans-serif;
+                        }
+                }
+        
+                .swiper-slide--enterprise {
+                        background: #159957;
+        
+                        h3 {
+                                font-family: "Satisfy", cursive;
+                                font-weight: 300;
+                        }
+                }
+                
+                .swiper-button-prev {
+                        background: white;
+                        border-radius: 50%;
+                        top: 47%;
+                        left: -30px;
+                        width: 50px;
+                        height: 50px;
+                        box-shadow: 0px 2px 11px rgb(0 0 0 / 17%);
+        
+                        &::after {
+                                font-size: 1.4rem;
+                                content: "";
+                        }
+        
+                        svg {
+                                width: 25px;
+                        }
+                }
+        
+                .swiper-button-next {
+                        background: white;
+                        border-radius: 50%;
+                        top: 47%;
+                        right: -30px;
+                        width: 50px;
+                        height: 50px;
+                        box-shadow: 0px 2px 11px rgb(0 0 0 / 17%);
+        
+                        &::after {
+                                font-size: 1.4rem;
+                                content: "";
+                        }
+        
+                        svg {
+                                width: 25px;
+                        }
+                }
+        
+                .swiper-button-prev,
+                .swiper-button-next {
+                        display: none;
+        
+                        @media (min-width: 760px) {
+                                display: flex;
+                        }
+                }
         }
+}
 }

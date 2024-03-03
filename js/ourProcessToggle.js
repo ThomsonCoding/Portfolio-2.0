@@ -1,7 +1,6 @@
-import 'swiper/swiper-bundle.css'; // Import Swiper styles
-import Swiper from 'swiper/bundle'; 
-
-    let swiper = new Swiper(".swiper", {
+    // init Swiper:
+    const swiper = new Swiper('.swiper', {
+    // configure Swiper to use modules
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
