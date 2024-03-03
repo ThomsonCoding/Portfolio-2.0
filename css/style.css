@@ -1534,13 +1534,24 @@ h2 {
   opacity: 1;
 }
 .our-process__section .swiper-container .swiper-slide--starter {
-  background: white;
+  background: turquoise;
   /* fallback for old browsers */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--starter h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
+}
+.our-process__section .swiper-container .swiper-slide--starter .recommendPilHolder {
+  top: 0.2rem;
+  right: 0.5rem;
+}
+.our-process__section .swiper-container .swiper-slide--starter .recommendPil {
+  background-color: white;
+  color: #000;
+}
+.our-process__section .swiper-container .swiper-slide--starter .recommendPil .tooltiptext {
+  background-color: black;
 }
 .our-process__section .swiper-container .swiper-slide--starter .icon--container {
   border: 3px solid gray;

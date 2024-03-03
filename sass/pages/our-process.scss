@@ -133,7 +133,7 @@
                 }
         
                 .swiper-slide--starter {
-                        background: white;
+                        background: turquoise;
                         /* fallback for old browsers */
                         // background: -webkit-linear-gradient(to bottom,
                         //                 #021b79,
@@ -147,6 +147,20 @@
                         h3 {
                                 font-family: "Cormorant Garamond", serif;
                                 font-weight: 600;
+                        }
+
+                        .recommendPilHolder { 
+                                top: .2rem;
+                                right: .5rem;
+                        }
+
+                        .recommendPil { 
+                                background-color: white;
+                                color: $color-black;
+
+                                .tooltiptext { 
+                                        background-color: black;
+                                }
                         }
 
                         .icon--container {
