@@ -1249,6 +1249,7 @@ h2 {
 .contact-us__section {
   display: flex;
   flex-direction: column;
+  margin: 3rem 2rem;
 }
 @media only screen and (min-width: 63.9em) {
   .contact-us__section {
@@ -1273,7 +1274,7 @@ h2 {
   color: black;
   line-height: 1.2;
   max-width: 350px;
-  margin: 8rem auto 2rem auto;
+  margin: 4rem 0;
   z-index: 2;
   color: #000;
   font-weight: 400;

@@ -12,6 +12,7 @@
     &__section {
         display: flex;
         flex-direction: column;
+        margin: 3rem 2rem;
         
 
         @include respond(desktop) {
@@ -35,7 +36,7 @@
             color: black;
             line-height: 1.2;
             max-width: 350px;
-            margin: 8rem auto 2rem auto;
+            margin: 4rem 0;
             z-index: 2;
             color: $color-black;
             font-weight: 400;
