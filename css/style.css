@@ -1448,7 +1448,6 @@ h2 {
   margin: 0 auto;
   min-height: fit-content;
   column-gap: 3rem;
-  padding-block: min(20vh, 3rem);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -1459,7 +1458,7 @@ h2 {
 }
 .our-process__section .swiper-container .swiper {
   width: 100%;
-  padding: 1rem 0 7rem 0;
+  padding: 0rem 0 4rem 0;
 }
 .our-process__section .swiper-container .swiper-slide {
   width: 10rem;
@@ -1496,7 +1495,7 @@ h2 {
   justify-content: center;
   justify-items: center;
   position: absolute;
-  bottom: -60px;
+  bottom: -3.5rem;
   left: 50%;
   transform: translateX(-50%);
   width: 5rem;
