@@ -135,13 +135,13 @@
                 .swiper-slide--starter {
                         background: white;
                         /* fallback for old browsers */
-                        // background: -webkit-linear-gradient(to bottom,
-                        //                 #021b79,
-                        //                 #0575e6);
+                        background: -webkit-linear-gradient(to bottom,
+                                        white 95%,
+                                        turquoise 5%);
                         // /* Chrome 10-25, Safari 5.1-6 */
-                        // background: linear-gradient(to bottom,
-                        //                 #021b79,
-                        //                 #0575e6);
+                        background: linear-gradient(to bottom,
+                                        white 95%,
+                                        turquoise 5%);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
                         h3 {
@@ -171,13 +171,13 @@
                 .swiper-slide--pro {
                         background: white;
                         /* fallback for old browsers */
-                        // background: -webkit-linear-gradient(to bottom,
-                        //                 #cc5333,
-                        //                 #23074d);
+                        background: -webkit-linear-gradient(to bottom,
+                                        white 95%,
+                                        gold 5%);
                         // /* Chrome 10-25, Safari 5.1-6 */
-                        // background: linear-gradient(to bottom,
-                        //                 #cc5333,
-                        //                 #23074d);
+                        background: linear-gradient(to bottom,
+                                        white 95%,
+                                        gold 5%);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
                         h3 {
@@ -205,6 +205,16 @@
         
                 .swiper-slide--enterprise {
                         background: white;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to bottom,
+                                        white 95%,
+                                        blueviolet 5%);
+                        // /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to bottom,
+                                        white 95%,
+                                        blueviolet 5%);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
         
                         h3 {
                                 font-family: "Satisfy", cursive;

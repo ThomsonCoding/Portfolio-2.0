@@ -1536,6 +1536,8 @@ h2 {
 .our-process__section .swiper-container .swiper-slide--starter {
   background: white;
   /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white 95%, turquoise 5%);
+  background: linear-gradient(to bottom, white 95%, turquoise 5%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--starter h3 {
@@ -1559,6 +1561,8 @@ h2 {
 .our-process__section .swiper-container .swiper-slide--pro {
   background: white;
   /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white 95%, gold 5%);
+  background: linear-gradient(to bottom, white 95%, gold 5%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--pro h3 {
@@ -1580,6 +1584,10 @@ h2 {
 }
 .our-process__section .swiper-container .swiper-slide--enterprise {
   background: white;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white 95%, blueviolet 5%);
+  background: linear-gradient(to bottom, white 95%, blueviolet 5%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--enterprise h3 {
   font-family: "Satisfy", cursive;
