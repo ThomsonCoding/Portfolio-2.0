@@ -1539,6 +1539,32 @@ h2 {
   display: grid;
   opacity: 1;
 }
+.our-process__section .swiper-container .swiper-slide--intro {
+  background: white;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white 95%, gray 5%);
+  background: linear-gradient(to bottom, white 95%, gray 5%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.our-process__section .swiper-container .swiper-slide--intro h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+.our-process__section .swiper-container .swiper-slide--intro .icon--container {
+  border: 3px solid gray;
+}
+.our-process__section .swiper-container .swiper-slide--intro span {
+  font-weight: 900;
+}
+.our-process__section .swiper-container .swiper-slide--intro span.starter {
+  color: turquoise;
+}
+.our-process__section .swiper-container .swiper-slide--intro span.pro {
+  color: gold;
+}
+.our-process__section .swiper-container .swiper-slide--intro span.enterprise {
+  color: blueviolet;
+}
 .our-process__section .swiper-container .swiper-slide--starter {
   background: white;
   /* fallback for old browsers */

@@ -137,6 +137,44 @@
                         display: grid;
                         opacity: 1;
                 }
+
+                .swiper-slide--intro {
+                        background: white;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to bottom,
+                                        white 95%,
+                                        gray 5%);
+                        // /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to bottom,
+                                        white 95%,
+                                        gray 5%);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+                        h3 {
+                                font-family: "Cormorant Garamond", serif;
+                                font-weight: 600;
+                        }
+
+                        .icon--container {
+                                border: 3px solid gray;
+                        }
+
+                        span {
+                                font-weight: 900;
+                        }
+
+                        span.starter {
+                                color: turquoise;
+                        }
+                        
+                        span.pro {
+                                color: gold;
+                        }
+                
+                        span.enterprise {
+                                color: blueviolet;
+                        }
+                }
         
                 .swiper-slide--starter {
                         background: white;
