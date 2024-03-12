@@ -1176,6 +1176,9 @@ h2 {
   border-radius: 1rem;
   position: relative;
 }
+.website__packages .carousel--item .btn {
+  border-radius: 1rem;
+}
 @media only screen and (min-width: 63.9em) {
   .website__packages .carousel--item:nth-child(1), .website__packages .carousel--item:nth-child(3) {
     margin: 1.8rem;
