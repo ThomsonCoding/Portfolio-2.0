@@ -1244,12 +1244,13 @@ h2 {
   }
 }
 .contact-us__header {
-  margin: 0 auto;
+  margin: 6rem 3rem 2rem 2rem;
 }
 .contact-us__section {
   display: flex;
   flex-direction: column;
-  margin: 3rem 2rem;
+  margin: auto;
+  max-width: 90%;
 }
 @media only screen and (min-width: 63.9em) {
   .contact-us__section {
@@ -1274,11 +1275,11 @@ h2 {
   color: black;
   line-height: 1.2;
   max-width: 350px;
-  margin: 4rem 0;
   z-index: 2;
   color: #000;
   font-weight: 400;
   padding: 0;
+  margin: 0;
 }
 @media only screen and (min-width: 63.9em) {
   .contact-us__section h2 {
@@ -1330,18 +1331,21 @@ h2 {
 }
 .contact-us__section form input {
   border: none;
-  border-bottom: solid 1px black;
+  border-bottom: solid 2px black;
   padding: 1rem 0;
 }
 .contact-us__section form inputinput {
   text-decoration: none;
 }
 .contact-us__section form input:focus {
-  border-bottom: solid 1px #005b96;
+  border-bottom: solid 2px turquoise;
 }
 .contact-us__section form textarea {
   min-height: 15rem;
   padding: 1rem;
+}
+.contact-us__section form textarea:focus {
+  border: solid 2px turquoise;
 }
 .contact-us__section form .btn--contact-us {
   min-width: 100%;

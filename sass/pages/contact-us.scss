@@ -6,15 +6,15 @@
     }
 
     &__header {
-        margin: 0 auto;
+        margin: 6rem 3rem 2rem 2rem;
     }
 
     &__section {
         display: flex;
         flex-direction: column;
-        margin: 3rem 2rem;
+        margin: auto;
+        max-width: 90%;
         
-
         @include respond(desktop) {
             background-color: white;
         }
@@ -36,11 +36,11 @@
             color: black;
             line-height: 1.2;
             max-width: 350px;
-            margin: 4rem 0;
             z-index: 2;
             color: $color-black;
             font-weight: 400;
             padding: 0;
+            margin: 0;
 
             @include respond(desktop) {
                 font-size: 6rem;
@@ -96,7 +96,7 @@
 
             input {
                 border: none;
-                border-bottom: solid 1px black;
+                border-bottom: solid 2px black;
                 padding: 1rem 0;
 
                 &input {
@@ -104,13 +104,17 @@
                 }
 
                 &:focus {
-                    border-bottom: solid 1px $color-primary;
+                    border-bottom: solid 2px turquoise;
                 }
             }
 
             textarea {
                 min-height: 15rem;
                 padding: 1rem;
+
+                &:focus {
+                    border: solid 2px turquoise;
+                }
             }
 
             .btn--contact-us {
