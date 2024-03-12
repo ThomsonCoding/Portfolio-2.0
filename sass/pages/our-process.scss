@@ -169,7 +169,7 @@
                         }
 
                         span.starter {
-                                color: turquoise;
+                                color: $color-tertiary-light;
                         }
                         
                         span.pro {
@@ -186,11 +186,11 @@
                         /* fallback for old browsers */
                         background: -webkit-linear-gradient(to bottom,
                                         $color-white 95%,
-                                        turquoise 5%);
+                                        $color-tertiary-light 5%);
                         // /* Chrome 10-25, Safari 5.1-6 */
                         background: linear-gradient(to bottom,
                                         $color-white 95%,
-                                        turquoise 5%);
+                                        $color-tertiary-light 5%);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
                         h3 {
@@ -204,7 +204,7 @@
                         }
 
                         .recommendPil { 
-                                background-color: turquoise;
+                                background-color: $color-tertiary-light;
                                 color: $color-white;
 
                                 .tooltiptext { 
@@ -213,7 +213,7 @@
                         }
 
                         .icon--container {
-                                border: 3px solid turquoise;
+                                border: 3px solid $color-tertiary-light;
                         }
                 }
         

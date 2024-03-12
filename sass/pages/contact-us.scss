@@ -2,7 +2,7 @@
     background-color: white;
 
     @include respond(desktop) {
-        background-color: turquoise;
+        background-color: $color-tertiary-light;
     }
 
     &__header {
@@ -107,7 +107,7 @@
                 }
 
                 &:focus {
-                    border-bottom: solid 2px turquoise;
+                    border-bottom: solid 2px $color-tertiary-light;
                 }
             }
 
@@ -116,7 +116,7 @@
                 padding: 1rem;
 
                 &:focus {
-                    border: solid 2px turquoise;
+                    border: solid 2px $color-tertiary-light;
                 }
             }
 

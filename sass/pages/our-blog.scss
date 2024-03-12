@@ -1,6 +1,6 @@
 .our-blog {
     @include respond(desktop) {
-        background-color: turquoise;
+        background-color: $color-tertiary-light;
     }
     
     h2 { 

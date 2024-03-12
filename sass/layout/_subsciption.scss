@@ -35,7 +35,7 @@
         height: 100%;
         padding: 0 20px 0 10px;
         border-radius: 0.5rem 0 0 0.5rem;
-        border: solid black 1px;
+        border: solid $color-grey-dark-2 1px;
 
         &:focus {
             outline: none;

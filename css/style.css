@@ -992,7 +992,7 @@ h2 {
   height: 100%;
   padding: 0 20px 0 10px;
   border-radius: 0.5rem 0 0 0.5rem;
-  border: solid black 1px;
+  border: solid #999 1px;
 }
 .subsciption__input:focus {
   outline: none;
@@ -1243,7 +1243,7 @@ h2 {
 }
 @media only screen and (min-width: 63.9em) {
   .contact-us {
-    background-color: turquoise;
+    background-color: #30c8c9;
   }
 }
 .contact-us__header {
@@ -1343,14 +1343,14 @@ h2 {
   text-decoration: none;
 }
 .contact-us__section form input:focus {
-  border-bottom: solid 2px turquoise;
+  border-bottom: solid 2px #30c8c9;
 }
 .contact-us__section form textarea {
   min-height: 15rem;
   padding: 1rem;
 }
 .contact-us__section form textarea:focus {
-  border: solid 2px turquoise;
+  border: solid 2px #30c8c9;
 }
 .contact-us__section form .btn--contact-us {
   min-width: 100%;
@@ -1388,7 +1388,7 @@ h2 {
 
 @media only screen and (min-width: 63.9em) {
   .our-blog {
-    background-color: turquoise;
+    background-color: #30c8c9;
   }
 }
 .our-blog h2 {
@@ -1571,7 +1571,7 @@ h2 {
   font-size: 2rem;
 }
 .our-process__section .swiper-container .swiper-slide--intro span.starter {
-  color: turquoise;
+  color: #30c8c9;
 }
 .our-process__section .swiper-container .swiper-slide--intro span.pro {
   color: gold;
@@ -1582,8 +1582,8 @@ h2 {
 .our-process__section .swiper-container .swiper-slide--starter {
   background: #fff;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #fff 95%, turquoise 5%);
-  background: linear-gradient(to bottom, #fff 95%, turquoise 5%);
+  background: -webkit-linear-gradient(to bottom, #fff 95%, #30c8c9 5%);
+  background: linear-gradient(to bottom, #fff 95%, #30c8c9 5%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .our-process__section .swiper-container .swiper-slide--starter h3 {
@@ -1595,14 +1595,14 @@ h2 {
   right: 0.5rem;
 }
 .our-process__section .swiper-container .swiper-slide--starter .recommendPil {
-  background-color: turquoise;
+  background-color: #30c8c9;
   color: #fff;
 }
 .our-process__section .swiper-container .swiper-slide--starter .recommendPil .tooltiptext {
   background-color: black;
 }
 .our-process__section .swiper-container .swiper-slide--starter .icon--container {
-  border: 3px solid turquoise;
+  border: 3px solid #30c8c9;
 }
 .our-process__section .swiper-container .swiper-slide--pro {
   background: #fff;
