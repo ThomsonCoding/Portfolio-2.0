@@ -19,6 +19,7 @@
     },
     keyboard: {
         enabled: true,
+        onlyInViewport: false,
     },
     mousewheel: {
         thresholdDelta: 70,
